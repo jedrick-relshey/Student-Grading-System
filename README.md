@@ -65,6 +65,12 @@ Grading_System
 
 **Jedrick Relshey Miclat**
 
+**Francisco Tagulao**
+
+**John Paul Basco**
+
+**Jonathan Santos**
+
 Dominican College of Tarlac
 
 Bachelor of Science in Information Technology
