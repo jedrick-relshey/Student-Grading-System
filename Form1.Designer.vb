@@ -176,6 +176,24 @@ Partial Class Form1
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblprelim = New System.Windows.Forms.Label()
+        Me.lblmidterm = New System.Windows.Forms.Label()
+        Me.lblfinal = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel14.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -235,7 +253,7 @@ Partial Class Form1
         Me.labelCourse.AutoSize = True
         Me.labelCourse.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelCourse.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.labelCourse.Location = New System.Drawing.Point(13, 239)
+        Me.labelCourse.Location = New System.Drawing.Point(15, 239)
         Me.labelCourse.Name = "labelCourse"
         Me.labelCourse.Size = New System.Drawing.Size(57, 19)
         Me.labelCourse.TabIndex = 28
@@ -245,9 +263,9 @@ Partial Class Form1
         '
         Me.cmbRecords.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbRecords.FormattingEnabled = True
-        Me.cmbRecords.Location = New System.Drawing.Point(14, 325)
+        Me.cmbRecords.Location = New System.Drawing.Point(16, 325)
         Me.cmbRecords.Name = "cmbRecords"
-        Me.cmbRecords.Size = New System.Drawing.Size(233, 28)
+        Me.cmbRecords.Size = New System.Drawing.Size(231, 28)
         Me.cmbRecords.TabIndex = 27
         '
         'lblYearLevel
@@ -265,7 +283,7 @@ Partial Class Form1
         '
         Me.lblSemesterError2.AutoSize = True
         Me.lblSemesterError2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblSemesterError2.Location = New System.Drawing.Point(146, 379)
+        Me.lblSemesterError2.Location = New System.Drawing.Point(154, 379)
         Me.lblSemesterError2.Name = "lblSemesterError2"
         Me.lblSemesterError2.Size = New System.Drawing.Size(84, 13)
         Me.lblSemesterError2.TabIndex = 25
@@ -276,7 +294,7 @@ Partial Class Form1
         '
         Me.lblSemesterError1.AutoSize = True
         Me.lblSemesterError1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblSemesterError1.Location = New System.Drawing.Point(32, 379)
+        Me.lblSemesterError1.Location = New System.Drawing.Point(35, 379)
         Me.lblSemesterError1.Name = "lblSemesterError1"
         Me.lblSemesterError1.Size = New System.Drawing.Size(84, 13)
         Me.lblSemesterError1.TabIndex = 24
@@ -288,7 +306,7 @@ Partial Class Form1
         Me.rbSecondSem.AutoSize = True
         Me.rbSecondSem.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rbSecondSem.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.rbSecondSem.Location = New System.Drawing.Point(131, 361)
+        Me.rbSecondSem.Location = New System.Drawing.Point(134, 361)
         Me.rbSecondSem.Name = "rbSecondSem"
         Me.rbSecondSem.Size = New System.Drawing.Size(108, 20)
         Me.rbSecondSem.TabIndex = 23
@@ -301,7 +319,7 @@ Partial Class Form1
         Me.rbFirstsem.AutoSize = True
         Me.rbFirstsem.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rbFirstsem.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.rbFirstsem.Location = New System.Drawing.Point(15, 361)
+        Me.rbFirstsem.Location = New System.Drawing.Point(18, 361)
         Me.rbFirstsem.Name = "rbFirstsem"
         Me.rbFirstsem.Size = New System.Drawing.Size(103, 20)
         Me.rbFirstsem.TabIndex = 22
@@ -313,9 +331,9 @@ Partial Class Form1
         '
         Me.cmbCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCourse.FormattingEnabled = True
-        Me.cmbCourse.Location = New System.Drawing.Point(14, 258)
+        Me.cmbCourse.Location = New System.Drawing.Point(16, 258)
         Me.cmbCourse.Name = "cmbCourse"
-        Me.cmbCourse.Size = New System.Drawing.Size(110, 28)
+        Me.cmbCourse.Size = New System.Drawing.Size(108, 28)
         Me.cmbCourse.TabIndex = 19
         '
         'PictureBox1
@@ -333,7 +351,7 @@ Partial Class Form1
         Me.lblRcds.AutoSize = True
         Me.lblRcds.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRcds.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.lblRcds.Location = New System.Drawing.Point(13, 305)
+        Me.lblRcds.Location = New System.Drawing.Point(15, 305)
         Me.lblRcds.Name = "lblRcds"
         Me.lblRcds.Size = New System.Drawing.Size(65, 19)
         Me.lblRcds.TabIndex = 17
@@ -353,7 +371,7 @@ Partial Class Form1
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Cambria", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label32.Location = New System.Drawing.Point(79, 484)
+        Me.Label32.Location = New System.Drawing.Point(79, 481)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(96, 15)
         Me.Label32.TabIndex = 15
@@ -364,7 +382,7 @@ Partial Class Form1
         Me.lblFrstSmTxt.AutoSize = True
         Me.lblFrstSmTxt.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFrstSmTxt.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.lblFrstSmTxt.Location = New System.Drawing.Point(43, 452)
+        Me.lblFrstSmTxt.Location = New System.Drawing.Point(43, 449)
         Me.lblFrstSmTxt.Name = "lblFrstSmTxt"
         Me.lblFrstSmTxt.Size = New System.Drawing.Size(172, 28)
         Me.lblFrstSmTxt.TabIndex = 14
@@ -396,7 +414,7 @@ Partial Class Form1
         '
         Me.btnSave.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.btnSave.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSave.Location = New System.Drawing.Point(134, 402)
+        Me.btnSave.Location = New System.Drawing.Point(134, 399)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(113, 47)
         Me.btnSave.TabIndex = 12
@@ -407,7 +425,7 @@ Partial Class Form1
         '
         Me.btnCompute.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.btnCompute.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCompute.Location = New System.Drawing.Point(14, 402)
+        Me.btnCompute.Location = New System.Drawing.Point(14, 399)
         Me.btnCompute.Name = "btnCompute"
         Me.btnCompute.Size = New System.Drawing.Size(113, 47)
         Me.btnCompute.TabIndex = 11
@@ -580,6 +598,12 @@ Partial Class Form1
         'Panel12
         '
         Me.Panel12.BackColor = System.Drawing.Color.Gainsboro
+        Me.Panel12.Controls.Add(Me.Label42)
+        Me.Panel12.Controls.Add(Me.Label43)
+        Me.Panel12.Controls.Add(Me.Label40)
+        Me.Panel12.Controls.Add(Me.Label41)
+        Me.Panel12.Controls.Add(Me.Label39)
+        Me.Panel12.Controls.Add(Me.lblfinal)
         Me.Panel12.Controls.Add(Me.lblFinalValue6)
         Me.Panel12.Controls.Add(Me.lblFinalValue5)
         Me.Panel12.Controls.Add(Me.lblFinalValue4)
@@ -918,8 +942,14 @@ Partial Class Form1
         'Panel11
         '
         Me.Panel11.BackColor = System.Drawing.Color.Gainsboro
+        Me.Panel11.Controls.Add(Me.Label28)
+        Me.Panel11.Controls.Add(Me.lblmidterm)
+        Me.Panel11.Controls.Add(Me.Label31)
         Me.Panel11.Controls.Add(Me.lblMidtermValue6)
+        Me.Panel11.Controls.Add(Me.Label33)
         Me.Panel11.Controls.Add(Me.lblMidtermValue5)
+        Me.Panel11.Controls.Add(Me.Label37)
+        Me.Panel11.Controls.Add(Me.Label38)
         Me.Panel11.Controls.Add(Me.lblMidtermValue4)
         Me.Panel11.Controls.Add(Me.lblMidtermValue3)
         Me.Panel11.Controls.Add(Me.lblMidtermValue2)
@@ -1256,6 +1286,12 @@ Partial Class Form1
         'Panel10
         '
         Me.Panel10.BackColor = System.Drawing.Color.Gainsboro
+        Me.Panel10.Controls.Add(Me.Label26)
+        Me.Panel10.Controls.Add(Me.Label27)
+        Me.Panel10.Controls.Add(Me.Label24)
+        Me.Panel10.Controls.Add(Me.Label25)
+        Me.Panel10.Controls.Add(Me.Label23)
+        Me.Panel10.Controls.Add(Me.lblprelim)
         Me.Panel10.Controls.Add(Me.lblPrelimValue6)
         Me.Panel10.Controls.Add(Me.lblPrelimValue5)
         Me.Panel10.Controls.Add(Me.lblPrelimValue4)
@@ -1869,6 +1905,204 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Dominican College of Tarlac."
         '
+        'lblprelim
+        '
+        Me.lblprelim.AutoSize = True
+        Me.lblprelim.BackColor = System.Drawing.SystemColors.Window
+        Me.lblprelim.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblprelim.Location = New System.Drawing.Point(105, 29)
+        Me.lblprelim.Name = "lblprelim"
+        Me.lblprelim.Size = New System.Drawing.Size(41, 25)
+        Me.lblprelim.TabIndex = 63
+        Me.lblprelim.Text = "30%"
+        '
+        'lblmidterm
+        '
+        Me.lblmidterm.AutoSize = True
+        Me.lblmidterm.BackColor = System.Drawing.SystemColors.Window
+        Me.lblmidterm.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblmidterm.Location = New System.Drawing.Point(104, 29)
+        Me.lblmidterm.Name = "lblmidterm"
+        Me.lblmidterm.Size = New System.Drawing.Size(41, 25)
+        Me.lblmidterm.TabIndex = 64
+        Me.lblmidterm.Text = "30%"
+        '
+        'lblfinal
+        '
+        Me.lblfinal.AutoSize = True
+        Me.lblfinal.BackColor = System.Drawing.SystemColors.Window
+        Me.lblfinal.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblfinal.Location = New System.Drawing.Point(108, 30)
+        Me.lblfinal.Name = "lblfinal"
+        Me.lblfinal.Size = New System.Drawing.Size(42, 25)
+        Me.lblfinal.TabIndex = 65
+        Me.lblfinal.Text = "40%"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.SystemColors.Window
+        Me.Label23.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(105, 85)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(41, 25)
+        Me.Label23.TabIndex = 64
+        Me.Label23.Text = "30%"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.SystemColors.Window
+        Me.Label24.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(105, 198)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(41, 25)
+        Me.Label24.TabIndex = 66
+        Me.Label24.Text = "30%"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.SystemColors.Window
+        Me.Label25.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(105, 142)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(41, 25)
+        Me.Label25.TabIndex = 65
+        Me.Label25.Text = "30%"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.SystemColors.Window
+        Me.Label26.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(105, 308)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(41, 25)
+        Me.Label26.TabIndex = 68
+        Me.Label26.Text = "30%"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.SystemColors.Window
+        Me.Label27.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(105, 252)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(41, 25)
+        Me.Label27.TabIndex = 67
+        Me.Label27.Text = "30%"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.SystemColors.Window
+        Me.Label28.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(104, 306)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(41, 25)
+        Me.Label28.TabIndex = 73
+        Me.Label28.Text = "30%"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.SystemColors.Window
+        Me.Label31.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(104, 250)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(41, 25)
+        Me.Label31.TabIndex = 72
+        Me.Label31.Text = "30%"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.SystemColors.Window
+        Me.Label33.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(104, 196)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(41, 25)
+        Me.Label33.TabIndex = 71
+        Me.Label33.Text = "30%"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.BackColor = System.Drawing.SystemColors.Window
+        Me.Label37.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(104, 142)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(41, 25)
+        Me.Label37.TabIndex = 70
+        Me.Label37.Text = "30%"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.SystemColors.Window
+        Me.Label38.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(104, 85)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(41, 25)
+        Me.Label38.TabIndex = 69
+        Me.Label38.Text = "30%"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = System.Drawing.SystemColors.Window
+        Me.Label39.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(108, 86)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(42, 25)
+        Me.Label39.TabIndex = 69
+        Me.Label39.Text = "40%"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = System.Drawing.SystemColors.Window
+        Me.Label40.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(108, 200)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(42, 25)
+        Me.Label40.TabIndex = 71
+        Me.Label40.Text = "40%"
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.SystemColors.Window
+        Me.Label41.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(108, 143)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(42, 25)
+        Me.Label41.TabIndex = 70
+        Me.Label41.Text = "40%"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.SystemColors.Window
+        Me.Label42.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(108, 306)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(42, 25)
+        Me.Label42.TabIndex = 73
+        Me.Label42.Text = "40%"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.SystemColors.Window
+        Me.Label43.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(108, 252)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(42, 25)
+        Me.Label43.TabIndex = 72
+        Me.Label43.Text = "40%"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2063,4 +2297,22 @@ Partial Class Form1
     Friend WithEvents lblCourseTitle As Label
     Friend WithEvents cmbRecords As ComboBox
     Friend WithEvents labelCourse As Label
+    Friend WithEvents lblprelim As Label
+    Friend WithEvents lblfinal As Label
+    Friend WithEvents lblmidterm As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label23 As Label
 End Class

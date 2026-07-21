@@ -134,42 +134,29 @@
         For i As Integer = 1 To 6
 
             Dim txtPrelim As TextBox = CType(Controls.Find("txtPrelim" & i, True)(0), TextBox)
-            Dim txtPrelimTotal As TextBox = CType(Controls.Find("txtPrelimTotal" & i, True)(0), TextBox)
-
             Dim txtMidterm As TextBox = CType(Controls.Find("txtMidterm" & i, True)(0), TextBox)
-            Dim txtMidtermTotal As TextBox = CType(Controls.Find("txtMidtermTotal" & i, True)(0), TextBox)
-
             Dim txtFinals As TextBox = CType(Controls.Find("txtFinals" & i, True)(0), TextBox)
-            Dim txtFinalsTotal As TextBox = CType(Controls.Find("txtFinalsTotal" & i, True)(0), TextBox)
 
             Dim txtFinalGrade As TextBox = CType(Controls.Find("txtFinalGrade" & i, True)(0), TextBox)
-
             Dim lblStatus As Label = CType(Controls.Find("lblStatus" & i, True)(0), Label)
 
-            If txtPrelimTotal.Text <> "0" AndAlso
-       txtMidtermTotal.Text <> "0" AndAlso
-       txtFinalsTotal.Text <> "0" Then
+            prelims = Val(txtPrelim.Text) * 0.3
+            midterms = Val(txtMidterm.Text) * 0.3
+            finals = Val(txtFinals.Text) * 0.4
 
-                prelims = (Val(txtPrelim.Text) / Val(txtPrelimTotal.Text)) * 30
-                midterms = (Val(txtMidterm.Text) / Val(txtMidtermTotal.Text)) * 30
-                finals = (Val(txtFinals.Text) / Val(txtFinalsTotal.Text)) * 40
+            finalGrade = prelims + midterms + finals
 
-                finalGrade = prelims + midterms + finals
+            txtFinalGrade.Text = finalGrade.ToString("0.00")
 
-                txtFinalGrade.Text = finalGrade.ToString("0.00")
-
-                If finalGrade >= 75 And finalGrade <= 100 Then
-                    lblStatus.Text = "Passed"
-                    lblStatus.Visible = True
-                    lblStatus.ForeColor = Color.Green
-                Else
-                    lblStatus.Text = "Failed"
-                    lblStatus.Visible = True
-                    lblStatus.ForeColor = Color.Red
-                End If
-
+            If finalGrade >= 75 Then
+                lblStatus.Text = "Passed"
+                lblStatus.Visible = True
+                lblStatus.ForeColor = Color.Green
+            Else
+                lblStatus.Text = "Failed"
+                lblStatus.Visible = True
+                lblStatus.ForeColor = Color.Red
             End If
-
         Next
 
         'ComboBox Function
@@ -212,17 +199,6 @@
                 lblPrelimGrade.Visible = False
             End If
 
-            'Prelim Total
-            Dim txtPrelimTotal As TextBox = CType(Controls.Find("txtPrelimTotal" & i, True)(0), TextBox)
-            Dim lblPrelimValue As Label = CType(Controls.Find("lblPrelimValue" & i, True)(0), Label)
-
-            If txtPrelimTotal.Text = "" Then
-                lblPrelimValue.Text = "Enter Value"
-                lblPrelimValue.Visible = True
-            Else
-                lblPrelimValue.Visible = False
-            End If
-
             'Midterm Grade
             Dim txtMidterm As TextBox = CType(Controls.Find("txtMidterm" & i, True)(0), TextBox)
             Dim lblMidtermGrade As Label = CType(Controls.Find("lblMidtermGrade" & i, True)(0), Label)
@@ -232,17 +208,6 @@
                 lblMidtermGrade.Visible = True
             Else
                 lblMidtermGrade.Visible = False
-            End If
-
-            'Midterm Total
-            Dim txtMidtermTotal As TextBox = CType(Controls.Find("txtMidtermTotal" & i, True)(0), TextBox)
-            Dim lblMidtermValue As Label = CType(Controls.Find("lblMidtermValue" & i, True)(0), Label)
-
-            If txtMidtermTotal.Text = "" Then
-                lblMidtermValue.Text = "Enter Value"
-                lblMidtermValue.Visible = True
-            Else
-                lblMidtermValue.Visible = False
             End If
 
             'Finals Grade
@@ -255,18 +220,6 @@
             Else
                 lblFinalGrade.Visible = False
             End If
-
-            'Finals Total
-            Dim txtFinalsTotal As TextBox = CType(Controls.Find("txtFinalsTotal" & i, True)(0), TextBox)
-            Dim lblFinalValue As Label = CType(Controls.Find("lblFinalValue" & i, True)(0), Label)
-
-            If txtFinalsTotal.Text = "" Then
-                lblFinalValue.Text = "Enter Value"
-                lblFinalValue.Visible = True
-            Else
-                lblFinalValue.Visible = False
-            End If
-
         Next
     End Sub
 
