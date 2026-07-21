@@ -57,12 +57,6 @@ Partial Class Form1
         Me.txtFinalGrade3 = New System.Windows.Forms.TextBox()
         Me.txtFinalGrade5 = New System.Windows.Forms.TextBox()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.lblFinalValue6 = New System.Windows.Forms.Label()
-        Me.lblFinalValue5 = New System.Windows.Forms.Label()
-        Me.lblFinalValue4 = New System.Windows.Forms.Label()
-        Me.lblFinalValue3 = New System.Windows.Forms.Label()
-        Me.lblFinalValue2 = New System.Windows.Forms.Label()
-        Me.lblFinalValue1 = New System.Windows.Forms.Label()
         Me.lblFinalGrade6 = New System.Windows.Forms.Label()
         Me.txtFinalsTotal6 = New System.Windows.Forms.TextBox()
         Me.lblFinalGrade5 = New System.Windows.Forms.Label()
@@ -88,12 +82,6 @@ Partial Class Form1
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.lblMidtermValue6 = New System.Windows.Forms.Label()
-        Me.lblMidtermValue5 = New System.Windows.Forms.Label()
-        Me.lblMidtermValue4 = New System.Windows.Forms.Label()
-        Me.lblMidtermValue3 = New System.Windows.Forms.Label()
-        Me.lblMidtermValue2 = New System.Windows.Forms.Label()
-        Me.lblMidtermValue1 = New System.Windows.Forms.Label()
         Me.lblMidtermGrade6 = New System.Windows.Forms.Label()
         Me.txtMidtermTotal6 = New System.Windows.Forms.TextBox()
         Me.lblMidtermGrade5 = New System.Windows.Forms.Label()
@@ -119,12 +107,6 @@ Partial Class Form1
         Me.txtMidtermTotal2 = New System.Windows.Forms.TextBox()
         Me.txtMidterm2 = New System.Windows.Forms.TextBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.lblPrelimValue6 = New System.Windows.Forms.Label()
-        Me.lblPrelimValue5 = New System.Windows.Forms.Label()
-        Me.lblPrelimValue4 = New System.Windows.Forms.Label()
-        Me.lblPrelimValue3 = New System.Windows.Forms.Label()
-        Me.lblPrelimValue2 = New System.Windows.Forms.Label()
-        Me.lblPrelimValue1 = New System.Windows.Forms.Label()
         Me.lblPrelimGrade6 = New System.Windows.Forms.Label()
         Me.lblPrelimGrade5 = New System.Windows.Forms.Label()
         Me.lblPrelimGrade4 = New System.Windows.Forms.Label()
@@ -604,12 +586,6 @@ Partial Class Form1
         Me.Panel12.Controls.Add(Me.Label41)
         Me.Panel12.Controls.Add(Me.Label39)
         Me.Panel12.Controls.Add(Me.lblfinal)
-        Me.Panel12.Controls.Add(Me.lblFinalValue6)
-        Me.Panel12.Controls.Add(Me.lblFinalValue5)
-        Me.Panel12.Controls.Add(Me.lblFinalValue4)
-        Me.Panel12.Controls.Add(Me.lblFinalValue3)
-        Me.Panel12.Controls.Add(Me.lblFinalValue2)
-        Me.Panel12.Controls.Add(Me.lblFinalValue1)
         Me.Panel12.Controls.Add(Me.lblFinalGrade6)
         Me.Panel12.Controls.Add(Me.txtFinalsTotal6)
         Me.Panel12.Controls.Add(Me.lblFinalGrade5)
@@ -638,78 +614,6 @@ Partial Class Form1
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(166, 364)
         Me.Panel12.TabIndex = 10
-        '
-        'lblFinalValue6
-        '
-        Me.lblFinalValue6.AutoSize = True
-        Me.lblFinalValue6.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinalValue6.ForeColor = System.Drawing.Color.Red
-        Me.lblFinalValue6.Location = New System.Drawing.Point(98, 340)
-        Me.lblFinalValue6.Name = "lblFinalValue6"
-        Me.lblFinalValue6.Size = New System.Drawing.Size(53, 12)
-        Me.lblFinalValue6.TabIndex = 68
-        Me.lblFinalValue6.Text = "Enter Value"
-        Me.lblFinalValue6.Visible = False
-        '
-        'lblFinalValue5
-        '
-        Me.lblFinalValue5.AutoSize = True
-        Me.lblFinalValue5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinalValue5.ForeColor = System.Drawing.Color.Red
-        Me.lblFinalValue5.Location = New System.Drawing.Point(98, 287)
-        Me.lblFinalValue5.Name = "lblFinalValue5"
-        Me.lblFinalValue5.Size = New System.Drawing.Size(53, 12)
-        Me.lblFinalValue5.TabIndex = 67
-        Me.lblFinalValue5.Text = "Enter Value"
-        Me.lblFinalValue5.Visible = False
-        '
-        'lblFinalValue4
-        '
-        Me.lblFinalValue4.AutoSize = True
-        Me.lblFinalValue4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinalValue4.ForeColor = System.Drawing.Color.Red
-        Me.lblFinalValue4.Location = New System.Drawing.Point(98, 233)
-        Me.lblFinalValue4.Name = "lblFinalValue4"
-        Me.lblFinalValue4.Size = New System.Drawing.Size(53, 12)
-        Me.lblFinalValue4.TabIndex = 66
-        Me.lblFinalValue4.Text = "Enter Value"
-        Me.lblFinalValue4.Visible = False
-        '
-        'lblFinalValue3
-        '
-        Me.lblFinalValue3.AutoSize = True
-        Me.lblFinalValue3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinalValue3.ForeColor = System.Drawing.Color.Red
-        Me.lblFinalValue3.Location = New System.Drawing.Point(98, 177)
-        Me.lblFinalValue3.Name = "lblFinalValue3"
-        Me.lblFinalValue3.Size = New System.Drawing.Size(53, 12)
-        Me.lblFinalValue3.TabIndex = 65
-        Me.lblFinalValue3.Text = "Enter Value"
-        Me.lblFinalValue3.Visible = False
-        '
-        'lblFinalValue2
-        '
-        Me.lblFinalValue2.AutoSize = True
-        Me.lblFinalValue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinalValue2.ForeColor = System.Drawing.Color.Red
-        Me.lblFinalValue2.Location = New System.Drawing.Point(98, 119)
-        Me.lblFinalValue2.Name = "lblFinalValue2"
-        Me.lblFinalValue2.Size = New System.Drawing.Size(53, 12)
-        Me.lblFinalValue2.TabIndex = 64
-        Me.lblFinalValue2.Text = "Enter Value"
-        Me.lblFinalValue2.Visible = False
-        '
-        'lblFinalValue1
-        '
-        Me.lblFinalValue1.AutoSize = True
-        Me.lblFinalValue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinalValue1.ForeColor = System.Drawing.Color.Red
-        Me.lblFinalValue1.Location = New System.Drawing.Point(98, 63)
-        Me.lblFinalValue1.Name = "lblFinalValue1"
-        Me.lblFinalValue1.Size = New System.Drawing.Size(53, 12)
-        Me.lblFinalValue1.TabIndex = 63
-        Me.lblFinalValue1.Text = "Enter Value"
-        Me.lblFinalValue1.Visible = False
         '
         'lblFinalGrade6
         '
@@ -945,15 +849,9 @@ Partial Class Form1
         Me.Panel11.Controls.Add(Me.Label28)
         Me.Panel11.Controls.Add(Me.lblmidterm)
         Me.Panel11.Controls.Add(Me.Label31)
-        Me.Panel11.Controls.Add(Me.lblMidtermValue6)
         Me.Panel11.Controls.Add(Me.Label33)
-        Me.Panel11.Controls.Add(Me.lblMidtermValue5)
         Me.Panel11.Controls.Add(Me.Label37)
         Me.Panel11.Controls.Add(Me.Label38)
-        Me.Panel11.Controls.Add(Me.lblMidtermValue4)
-        Me.Panel11.Controls.Add(Me.lblMidtermValue3)
-        Me.Panel11.Controls.Add(Me.lblMidtermValue2)
-        Me.Panel11.Controls.Add(Me.lblMidtermValue1)
         Me.Panel11.Controls.Add(Me.lblMidtermGrade6)
         Me.Panel11.Controls.Add(Me.txtMidtermTotal6)
         Me.Panel11.Controls.Add(Me.lblMidtermGrade5)
@@ -982,78 +880,6 @@ Partial Class Form1
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(157, 364)
         Me.Panel11.TabIndex = 9
-        '
-        'lblMidtermValue6
-        '
-        Me.lblMidtermValue6.AutoSize = True
-        Me.lblMidtermValue6.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMidtermValue6.ForeColor = System.Drawing.Color.Red
-        Me.lblMidtermValue6.Location = New System.Drawing.Point(92, 339)
-        Me.lblMidtermValue6.Name = "lblMidtermValue6"
-        Me.lblMidtermValue6.Size = New System.Drawing.Size(53, 12)
-        Me.lblMidtermValue6.TabIndex = 54
-        Me.lblMidtermValue6.Text = "Enter Value"
-        Me.lblMidtermValue6.Visible = False
-        '
-        'lblMidtermValue5
-        '
-        Me.lblMidtermValue5.AutoSize = True
-        Me.lblMidtermValue5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMidtermValue5.ForeColor = System.Drawing.Color.Red
-        Me.lblMidtermValue5.Location = New System.Drawing.Point(92, 286)
-        Me.lblMidtermValue5.Name = "lblMidtermValue5"
-        Me.lblMidtermValue5.Size = New System.Drawing.Size(53, 12)
-        Me.lblMidtermValue5.TabIndex = 53
-        Me.lblMidtermValue5.Text = "Enter Value"
-        Me.lblMidtermValue5.Visible = False
-        '
-        'lblMidtermValue4
-        '
-        Me.lblMidtermValue4.AutoSize = True
-        Me.lblMidtermValue4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMidtermValue4.ForeColor = System.Drawing.Color.Red
-        Me.lblMidtermValue4.Location = New System.Drawing.Point(92, 232)
-        Me.lblMidtermValue4.Name = "lblMidtermValue4"
-        Me.lblMidtermValue4.Size = New System.Drawing.Size(53, 12)
-        Me.lblMidtermValue4.TabIndex = 52
-        Me.lblMidtermValue4.Text = "Enter Value"
-        Me.lblMidtermValue4.Visible = False
-        '
-        'lblMidtermValue3
-        '
-        Me.lblMidtermValue3.AutoSize = True
-        Me.lblMidtermValue3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMidtermValue3.ForeColor = System.Drawing.Color.Red
-        Me.lblMidtermValue3.Location = New System.Drawing.Point(92, 176)
-        Me.lblMidtermValue3.Name = "lblMidtermValue3"
-        Me.lblMidtermValue3.Size = New System.Drawing.Size(53, 12)
-        Me.lblMidtermValue3.TabIndex = 51
-        Me.lblMidtermValue3.Text = "Enter Value"
-        Me.lblMidtermValue3.Visible = False
-        '
-        'lblMidtermValue2
-        '
-        Me.lblMidtermValue2.AutoSize = True
-        Me.lblMidtermValue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMidtermValue2.ForeColor = System.Drawing.Color.Red
-        Me.lblMidtermValue2.Location = New System.Drawing.Point(92, 118)
-        Me.lblMidtermValue2.Name = "lblMidtermValue2"
-        Me.lblMidtermValue2.Size = New System.Drawing.Size(53, 12)
-        Me.lblMidtermValue2.TabIndex = 50
-        Me.lblMidtermValue2.Text = "Enter Value"
-        Me.lblMidtermValue2.Visible = False
-        '
-        'lblMidtermValue1
-        '
-        Me.lblMidtermValue1.AutoSize = True
-        Me.lblMidtermValue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMidtermValue1.ForeColor = System.Drawing.Color.Red
-        Me.lblMidtermValue1.Location = New System.Drawing.Point(92, 62)
-        Me.lblMidtermValue1.Name = "lblMidtermValue1"
-        Me.lblMidtermValue1.Size = New System.Drawing.Size(53, 12)
-        Me.lblMidtermValue1.TabIndex = 49
-        Me.lblMidtermValue1.Text = "Enter Value"
-        Me.lblMidtermValue1.Visible = False
         '
         'lblMidtermGrade6
         '
@@ -1292,12 +1118,6 @@ Partial Class Form1
         Me.Panel10.Controls.Add(Me.Label25)
         Me.Panel10.Controls.Add(Me.Label23)
         Me.Panel10.Controls.Add(Me.lblprelim)
-        Me.Panel10.Controls.Add(Me.lblPrelimValue6)
-        Me.Panel10.Controls.Add(Me.lblPrelimValue5)
-        Me.Panel10.Controls.Add(Me.lblPrelimValue4)
-        Me.Panel10.Controls.Add(Me.lblPrelimValue3)
-        Me.Panel10.Controls.Add(Me.lblPrelimValue2)
-        Me.Panel10.Controls.Add(Me.lblPrelimValue1)
         Me.Panel10.Controls.Add(Me.lblPrelimGrade6)
         Me.Panel10.Controls.Add(Me.lblPrelimGrade5)
         Me.Panel10.Controls.Add(Me.lblPrelimGrade4)
@@ -1326,78 +1146,6 @@ Partial Class Form1
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(159, 364)
         Me.Panel10.TabIndex = 8
-        '
-        'lblPrelimValue6
-        '
-        Me.lblPrelimValue6.AutoSize = True
-        Me.lblPrelimValue6.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrelimValue6.ForeColor = System.Drawing.Color.Red
-        Me.lblPrelimValue6.Location = New System.Drawing.Point(94, 338)
-        Me.lblPrelimValue6.Name = "lblPrelimValue6"
-        Me.lblPrelimValue6.Size = New System.Drawing.Size(53, 12)
-        Me.lblPrelimValue6.TabIndex = 42
-        Me.lblPrelimValue6.Text = "Enter Value"
-        Me.lblPrelimValue6.Visible = False
-        '
-        'lblPrelimValue5
-        '
-        Me.lblPrelimValue5.AutoSize = True
-        Me.lblPrelimValue5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrelimValue5.ForeColor = System.Drawing.Color.Red
-        Me.lblPrelimValue5.Location = New System.Drawing.Point(94, 285)
-        Me.lblPrelimValue5.Name = "lblPrelimValue5"
-        Me.lblPrelimValue5.Size = New System.Drawing.Size(53, 12)
-        Me.lblPrelimValue5.TabIndex = 41
-        Me.lblPrelimValue5.Text = "Enter Value"
-        Me.lblPrelimValue5.Visible = False
-        '
-        'lblPrelimValue4
-        '
-        Me.lblPrelimValue4.AutoSize = True
-        Me.lblPrelimValue4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrelimValue4.ForeColor = System.Drawing.Color.Red
-        Me.lblPrelimValue4.Location = New System.Drawing.Point(94, 231)
-        Me.lblPrelimValue4.Name = "lblPrelimValue4"
-        Me.lblPrelimValue4.Size = New System.Drawing.Size(53, 12)
-        Me.lblPrelimValue4.TabIndex = 40
-        Me.lblPrelimValue4.Text = "Enter Value"
-        Me.lblPrelimValue4.Visible = False
-        '
-        'lblPrelimValue3
-        '
-        Me.lblPrelimValue3.AutoSize = True
-        Me.lblPrelimValue3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrelimValue3.ForeColor = System.Drawing.Color.Red
-        Me.lblPrelimValue3.Location = New System.Drawing.Point(94, 175)
-        Me.lblPrelimValue3.Name = "lblPrelimValue3"
-        Me.lblPrelimValue3.Size = New System.Drawing.Size(53, 12)
-        Me.lblPrelimValue3.TabIndex = 39
-        Me.lblPrelimValue3.Text = "Enter Value"
-        Me.lblPrelimValue3.Visible = False
-        '
-        'lblPrelimValue2
-        '
-        Me.lblPrelimValue2.AutoSize = True
-        Me.lblPrelimValue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrelimValue2.ForeColor = System.Drawing.Color.Red
-        Me.lblPrelimValue2.Location = New System.Drawing.Point(94, 117)
-        Me.lblPrelimValue2.Name = "lblPrelimValue2"
-        Me.lblPrelimValue2.Size = New System.Drawing.Size(53, 12)
-        Me.lblPrelimValue2.TabIndex = 38
-        Me.lblPrelimValue2.Text = "Enter Value"
-        Me.lblPrelimValue2.Visible = False
-        '
-        'lblPrelimValue1
-        '
-        Me.lblPrelimValue1.AutoSize = True
-        Me.lblPrelimValue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrelimValue1.ForeColor = System.Drawing.Color.Red
-        Me.lblPrelimValue1.Location = New System.Drawing.Point(94, 61)
-        Me.lblPrelimValue1.Name = "lblPrelimValue1"
-        Me.lblPrelimValue1.Size = New System.Drawing.Size(53, 12)
-        Me.lblPrelimValue1.TabIndex = 37
-        Me.lblPrelimValue1.Text = "Enter Value"
-        Me.lblPrelimValue1.Visible = False
         '
         'lblPrelimGrade6
         '
@@ -2264,36 +2012,18 @@ Partial Class Form1
     Friend WithEvents lblPrelimGrade3 As Label
     Friend WithEvents lblPrelimGrade2 As Label
     Friend WithEvents lblPrelimGrade1 As Label
-    Friend WithEvents lblFinalValue6 As Label
-    Friend WithEvents lblFinalValue5 As Label
-    Friend WithEvents lblFinalValue4 As Label
-    Friend WithEvents lblFinalValue3 As Label
-    Friend WithEvents lblFinalValue2 As Label
-    Friend WithEvents lblFinalValue1 As Label
     Friend WithEvents lblFinalGrade6 As Label
     Friend WithEvents lblFinalGrade5 As Label
     Friend WithEvents lblFinalGrade4 As Label
     Friend WithEvents lblFinalGrade3 As Label
     Friend WithEvents lblFinalGrade2 As Label
     Friend WithEvents lblFinalGrade1 As Label
-    Friend WithEvents lblMidtermValue6 As Label
-    Friend WithEvents lblMidtermValue5 As Label
-    Friend WithEvents lblMidtermValue4 As Label
-    Friend WithEvents lblMidtermValue3 As Label
-    Friend WithEvents lblMidtermValue2 As Label
-    Friend WithEvents lblMidtermValue1 As Label
     Friend WithEvents lblMidtermGrade6 As Label
     Friend WithEvents lblMidtermGrade5 As Label
     Friend WithEvents lblMidtermGrade4 As Label
     Friend WithEvents lblMidtermGrade3 As Label
     Friend WithEvents lblMidtermGrade2 As Label
     Friend WithEvents lblMidtermGrade1 As Label
-    Friend WithEvents lblPrelimValue6 As Label
-    Friend WithEvents lblPrelimValue5 As Label
-    Friend WithEvents lblPrelimValue4 As Label
-    Friend WithEvents lblPrelimValue3 As Label
-    Friend WithEvents lblPrelimValue2 As Label
-    Friend WithEvents lblPrelimValue1 As Label
     Friend WithEvents lblCourseTitle As Label
     Friend WithEvents cmbRecords As ComboBox
     Friend WithEvents labelCourse As Label

@@ -159,21 +159,21 @@
             End If
         Next
 
-        'ComboBox Function
-        If cmbCourse.Text = "" Then
-            lblYearLevel.Visible = True
-        Else
-            lblYearLevel.Visible = False
-        End If
+            'ComboBox Function
+            If cmbCourse.Text = "" Then
+                lblYearLevel.Visible = True
+            Else
+                lblYearLevel.Visible = False
+            End If
 
-        'Radio Botton
-        If Not (rbFirstsem.Checked OrElse rbSecondSem.Checked) Then
-            lblSemesterError1.Visible = True
-            lblSemesterError2.Visible = True
-        Else
-            lblSemesterError1.Visible = False
-            lblSemesterError2.Visible = False
-        End If
+            'Radio Botton
+            If Not (rbFirstsem.Checked OrElse rbSecondSem.Checked) Then
+                lblSemesterError1.Visible = True
+                lblSemesterError2.Visible = True
+            Else
+                lblSemesterError1.Visible = False
+                lblSemesterError2.Visible = False
+            End If
 
         'Function for Label of text Boox
         For i As Integer = 1 To 6
