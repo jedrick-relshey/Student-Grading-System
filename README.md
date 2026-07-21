@@ -1,4 +1,4 @@
-# 🎓 Student Grading System
+# Student Grading System
 
 A simple Windows Forms application developed using **VB.NET** for computing and managing students' grades.
 
