@@ -77,130 +77,52 @@
     End Sub
 
     Private Sub btnCompute_Click(sender As Object, e As EventArgs) Handles btnCompute.Click
+
         Dim prelims As Double
         Dim midterms As Double
         Dim finals As Double
         Dim finalGrade As Double
 
-        If txtPrelimTotal1.Text <> "0" And txtMidtermTotal1.Text <> "0" And txtFinalsTotal1.Text <> "0" Then
+        For i As Integer = 1 To 6
 
-            prelims = (Val(txtPrelim1.Text) / Val(txtPrelimTotal1.Text)) * 30
-            midterms = (Val(txtMidterm1.Text) / Val(txtMidtermTotal1.Text)) * 30
-            finals = (Val(txtFinals1.Text) / Val(txtFinalsTotal1.Text)) * 40
+            Dim txtPrelim As TextBox = CType(Controls.Find("txtPrelim" & i, True)(0), TextBox)
+            Dim txtPrelimTotal As TextBox = CType(Controls.Find("txtPrelimTotal" & i, True)(0), TextBox)
 
-            finalGrade = prelims + midterms + finals
+            Dim txtMidterm As TextBox = CType(Controls.Find("txtMidterm" & i, True)(0), TextBox)
+            Dim txtMidtermTotal As TextBox = CType(Controls.Find("txtMidtermTotal" & i, True)(0), TextBox)
 
-            txtFinalGrade1.Text = finalGrade.ToString("0.00")
+            Dim txtFinals As TextBox = CType(Controls.Find("txtFinals" & i, True)(0), TextBox)
+            Dim txtFinalsTotal As TextBox = CType(Controls.Find("txtFinalsTotal" & i, True)(0), TextBox)
 
-            If finalGrade >= 75 And finalGrade <= 100 Then
-                lblStatus1.Text = "Passed"
-                lblStatus1.Visible = True
-            Else
-                lblStatus1.Text = "Failed"
-                lblStatus1.Visible = True
-                lblStatus1.ForeColor = Color.Red
+            Dim txtFinalGrade As TextBox = CType(Controls.Find("txtFinalGrade" & i, True)(0), TextBox)
+
+            Dim lblStatus As Label = CType(Controls.Find("lblStatus" & i, True)(0), Label)
+
+            If txtPrelimTotal.Text <> "0" AndAlso
+       txtMidtermTotal.Text <> "0" AndAlso
+       txtFinalsTotal.Text <> "0" Then
+
+                prelims = (Val(txtPrelim.Text) / Val(txtPrelimTotal.Text)) * 30
+                midterms = (Val(txtMidterm.Text) / Val(txtMidtermTotal.Text)) * 30
+                finals = (Val(txtFinals.Text) / Val(txtFinalsTotal.Text)) * 40
+
+                finalGrade = prelims + midterms + finals
+
+                txtFinalGrade.Text = finalGrade.ToString("0.00")
+
+                If finalGrade >= 75 And finalGrade <= 100 Then
+                    lblStatus.Text = "Passed"
+                    lblStatus.Visible = True
+                    lblStatus.ForeColor = Color.Green
+                Else
+                    lblStatus.Text = "Failed"
+                    lblStatus.Visible = True
+                    lblStatus.ForeColor = Color.Red
+                End If
+
             End If
-        End If
 
-        If txtPrelimTotal2.Text <> "0" And txtMidtermTotal2.Text <> "0" And txtFinalsTotal2.Text <> "0" Then
-
-            prelims = (Val(txtPrelim2.Text) / Val(txtPrelimTotal2.Text)) * 30
-            midterms = (Val(txtMidterm2.Text) / Val(txtMidtermTotal2.Text)) * 30
-            finals = (Val(txtFinals2.Text) / Val(txtFinalsTotal2.Text)) * 40
-
-            finalGrade = prelims + midterms + finals
-
-            txtFinalGrade2.Text = finalGrade.ToString("0.00")
-
-            If finalGrade >= 75 And finalGrade <= 100 Then
-                lblStatus2.Text = "Passed"
-                lblStatus2.Visible = True
-            Else
-                lblStatus2.Text = "Failed"
-                lblStatus2.Visible = True
-                lblStatus2.ForeColor = Color.Red
-            End If
-        End If
-
-        If txtPrelimTotal3.Text <> "0" And txtMidtermTotal3.Text <> "0" And txtFinalsTotal3.Text <> "0" Then
-
-            prelims = (Val(txtPrelim3.Text) / Val(txtPrelimTotal3.Text)) * 30
-            midterms = (Val(txtMidterm3.Text) / Val(txtMidtermTotal3.Text)) * 30
-            finals = (Val(txtFinals3.Text) / Val(txtFinalsTotal3.Text)) * 40
-
-            finalGrade = prelims + midterms + finals
-
-            txtFinalGrade3.Text = finalGrade.ToString("0.00")
-
-            If finalGrade >= 75 And finalGrade <= 100 Then
-                lblStatus3.Text = "Passed"
-                lblStatus3.Visible = True
-            Else
-                lblStatus3.Text = "Failed"
-                lblStatus3.Visible = True
-                lblStatus3.ForeColor = Color.Red
-            End If
-        End If
-
-        If txtPrelimTotal4.Text <> "0" And txtMidtermTotal4.Text <> "0" And txtFinalsTotal4.Text <> "0" Then
-
-            prelims = (Val(txtPrelim4.Text) / Val(txtPrelimTotal4.Text)) * 30
-            midterms = (Val(txtMidterm4.Text) / Val(txtMidtermTotal4.Text)) * 30
-            finals = (Val(txtFinals4.Text) / Val(txtFinalsTotal4.Text)) * 40
-
-            finalGrade = prelims + midterms + finals
-
-            txtFinalGrade4.Text = finalGrade.ToString("0.00")
-
-            If finalGrade >= 75 And finalGrade <= 100 Then
-                lblStatus4.Text = "Passed"
-                lblStatus4.Visible = True
-            Else
-                lblStatus4.Text = "Failed"
-                lblStatus4.Visible = True
-                lblStatus4.ForeColor = Color.Red
-            End If
-        End If
-
-        If txtPrelimTotal5.Text <> "0" And txtMidtermTotal5.Text <> "0" And txtFinalsTotal5.Text <> "0" Then
-
-            prelims = (Val(txtPrelim5.Text) / Val(txtPrelimTotal5.Text)) * 30
-            midterms = (Val(txtMidterm5.Text) / Val(txtMidtermTotal5.Text)) * 30
-            finals = (Val(txtFinals5.Text) / Val(txtFinalsTotal5.Text)) * 40
-
-            finalGrade = prelims + midterms + finals
-
-            txtFinalGrade5.Text = finalGrade.ToString("0.00")
-
-            If finalGrade >= 75 And finalGrade <= 100 Then
-                lblStatus5.Text = "Passed"
-                lblStatus5.Visible = True
-            Else
-                lblStatus5.Text = "Failed"
-                lblStatus5.Visible = True
-                lblStatus5.ForeColor = Color.Red
-            End If
-        End If
-
-        If txtPrelimTotal6.Text <> "0" And txtMidtermTotal6.Text <> "0" And txtFinalsTotal6.Text <> "0" Then
-
-            prelims = (Val(txtPrelim6.Text) / Val(txtPrelimTotal6.Text)) * 30
-            midterms = (Val(txtMidterm6.Text) / Val(txtMidtermTotal6.Text)) * 30
-            finals = (Val(txtFinals6.Text) / Val(txtFinalsTotal6.Text)) * 40
-
-            finalGrade = prelims + midterms + finals
-
-            txtFinalGrade6.Text = finalGrade.ToString("0.00")
-
-            If finalGrade >= 75 And finalGrade <= 100 Then
-                lblStatus6.Text = "Passed"
-                lblStatus6.Visible = True
-            Else
-                lblStatus6.Text = "Failed"
-                lblStatus6.Visible = True
-                lblStatus6.ForeColor = Color.Red
-            End If
-        End If
+        Next
 
         'ComboBox Function
         If cmbCourse.Text = "" Then
@@ -513,6 +435,8 @@
             lblFinalValue6.Visible = False
         End If
     End Sub
+
+
 
     Private Sub rbSecondSem_CheckedChanged(sender As Object, e As EventArgs) Handles rbSecondSem.CheckedChanged
         If rbFirstsem.Checked Then
