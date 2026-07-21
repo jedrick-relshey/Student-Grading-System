@@ -34,17 +34,13 @@
         If Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> ControlChars.Back Then
 
             e.Handled = True
-
             txt.ForeColor = Color.Red
-
             txt.Tag = "Numbers only."
 
             MessageBox.Show("Numbers only.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning)
 
         Else
-
             txt.ForeColor = Color.Black
-
         End If
 
     End Sub
@@ -53,17 +49,11 @@
 
         Dim txt As TextBox = CType(sender, TextBox)
 
-
         If txt.Text <> "" Then
-
             If Val(txt.Text) > 100 Then
-
                 MessageBox.Show("Max is 100.")
-
                 txt.Clear()
-
             End If
-
         End If
 
     End Sub
@@ -325,9 +315,7 @@
 
             'Save Records ComboBox
             cmbRecords.Items.Add(cmbyrSctn.Text)
-
             MessageBox.Show("Grade successfully saved!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
         End If
     End Sub
 End Class

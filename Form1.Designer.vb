@@ -467,7 +467,7 @@ Partial Class Form1
         '
         Me.lblStatus6.AutoSize = True
         Me.lblStatus6.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStatus6.Location = New System.Drawing.Point(93, 306)
+        Me.lblStatus6.Location = New System.Drawing.Point(96, 306)
         Me.lblStatus6.Name = "lblStatus6"
         Me.lblStatus6.Size = New System.Drawing.Size(57, 25)
         Me.lblStatus6.TabIndex = 62
@@ -477,16 +477,16 @@ Partial Class Form1
         'txtFinalGrade6
         '
         Me.txtFinalGrade6.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinalGrade6.Location = New System.Drawing.Point(13, 302)
+        Me.txtFinalGrade6.Location = New System.Drawing.Point(9, 302)
         Me.txtFinalGrade6.Name = "txtFinalGrade6"
-        Me.txtFinalGrade6.Size = New System.Drawing.Size(74, 35)
+        Me.txtFinalGrade6.Size = New System.Drawing.Size(81, 35)
         Me.txtFinalGrade6.TabIndex = 61
         '
         'lblStatus5
         '
         Me.lblStatus5.AutoSize = True
         Me.lblStatus5.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStatus5.Location = New System.Drawing.Point(93, 253)
+        Me.lblStatus5.Location = New System.Drawing.Point(96, 253)
         Me.lblStatus5.Name = "lblStatus5"
         Me.lblStatus5.Size = New System.Drawing.Size(57, 25)
         Me.lblStatus5.TabIndex = 60
@@ -497,7 +497,7 @@ Partial Class Form1
         '
         Me.lblStatus4.AutoSize = True
         Me.lblStatus4.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStatus4.Location = New System.Drawing.Point(93, 199)
+        Me.lblStatus4.Location = New System.Drawing.Point(96, 199)
         Me.lblStatus4.Name = "lblStatus4"
         Me.lblStatus4.Size = New System.Drawing.Size(57, 25)
         Me.lblStatus4.TabIndex = 59
@@ -508,7 +508,7 @@ Partial Class Form1
         '
         Me.lblStatus3.AutoSize = True
         Me.lblStatus3.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStatus3.Location = New System.Drawing.Point(93, 144)
+        Me.lblStatus3.Location = New System.Drawing.Point(96, 144)
         Me.lblStatus3.Name = "lblStatus3"
         Me.lblStatus3.Size = New System.Drawing.Size(57, 25)
         Me.lblStatus3.TabIndex = 58
@@ -519,7 +519,7 @@ Partial Class Form1
         '
         Me.lblStatus2.AutoSize = True
         Me.lblStatus2.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStatus2.Location = New System.Drawing.Point(93, 85)
+        Me.lblStatus2.Location = New System.Drawing.Point(96, 85)
         Me.lblStatus2.Name = "lblStatus2"
         Me.lblStatus2.Size = New System.Drawing.Size(57, 25)
         Me.lblStatus2.TabIndex = 57
@@ -530,7 +530,7 @@ Partial Class Form1
         '
         Me.lblStatus1.AutoSize = True
         Me.lblStatus1.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStatus1.Location = New System.Drawing.Point(93, 30)
+        Me.lblStatus1.Location = New System.Drawing.Point(96, 30)
         Me.lblStatus1.Name = "lblStatus1"
         Me.lblStatus1.Size = New System.Drawing.Size(57, 25)
         Me.lblStatus1.TabIndex = 56
@@ -540,41 +540,41 @@ Partial Class Form1
         'txtFinalGrade4
         '
         Me.txtFinalGrade4.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinalGrade4.Location = New System.Drawing.Point(13, 196)
+        Me.txtFinalGrade4.Location = New System.Drawing.Point(9, 196)
         Me.txtFinalGrade4.Name = "txtFinalGrade4"
-        Me.txtFinalGrade4.Size = New System.Drawing.Size(74, 35)
+        Me.txtFinalGrade4.Size = New System.Drawing.Size(81, 35)
         Me.txtFinalGrade4.TabIndex = 54
         '
         'txtFinalGrade1
         '
         Me.txtFinalGrade1.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinalGrade1.Location = New System.Drawing.Point(13, 26)
+        Me.txtFinalGrade1.Location = New System.Drawing.Point(9, 26)
         Me.txtFinalGrade1.Name = "txtFinalGrade1"
-        Me.txtFinalGrade1.Size = New System.Drawing.Size(74, 35)
+        Me.txtFinalGrade1.Size = New System.Drawing.Size(81, 35)
         Me.txtFinalGrade1.TabIndex = 51
         '
         'txtFinalGrade2
         '
         Me.txtFinalGrade2.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinalGrade2.Location = New System.Drawing.Point(13, 81)
+        Me.txtFinalGrade2.Location = New System.Drawing.Point(9, 81)
         Me.txtFinalGrade2.Name = "txtFinalGrade2"
-        Me.txtFinalGrade2.Size = New System.Drawing.Size(74, 35)
+        Me.txtFinalGrade2.Size = New System.Drawing.Size(81, 35)
         Me.txtFinalGrade2.TabIndex = 52
         '
         'txtFinalGrade3
         '
         Me.txtFinalGrade3.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinalGrade3.Location = New System.Drawing.Point(13, 140)
+        Me.txtFinalGrade3.Location = New System.Drawing.Point(9, 140)
         Me.txtFinalGrade3.Name = "txtFinalGrade3"
-        Me.txtFinalGrade3.Size = New System.Drawing.Size(74, 35)
+        Me.txtFinalGrade3.Size = New System.Drawing.Size(81, 35)
         Me.txtFinalGrade3.TabIndex = 53
         '
         'txtFinalGrade5
         '
         Me.txtFinalGrade5.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFinalGrade5.Location = New System.Drawing.Point(13, 249)
+        Me.txtFinalGrade5.Location = New System.Drawing.Point(9, 249)
         Me.txtFinalGrade5.Name = "txtFinalGrade5"
-        Me.txtFinalGrade5.Size = New System.Drawing.Size(74, 35)
+        Me.txtFinalGrade5.Size = New System.Drawing.Size(81, 35)
         Me.txtFinalGrade5.TabIndex = 55
         '
         'Panel12
