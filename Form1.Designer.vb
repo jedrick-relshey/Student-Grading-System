@@ -57,6 +57,12 @@ Partial Class Form1
         Me.txtFinalGrade3 = New System.Windows.Forms.TextBox()
         Me.txtFinalGrade5 = New System.Windows.Forms.TextBox()
         Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.lblfinal = New System.Windows.Forms.Label()
         Me.lblFinalGrade6 = New System.Windows.Forms.Label()
         Me.txtFinalsTotal6 = New System.Windows.Forms.TextBox()
         Me.lblFinalGrade5 = New System.Windows.Forms.Label()
@@ -82,6 +88,12 @@ Partial Class Form1
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.lblmidterm = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
         Me.lblMidtermGrade6 = New System.Windows.Forms.Label()
         Me.txtMidtermTotal6 = New System.Windows.Forms.TextBox()
         Me.lblMidtermGrade5 = New System.Windows.Forms.Label()
@@ -107,6 +119,12 @@ Partial Class Form1
         Me.txtMidtermTotal2 = New System.Windows.Forms.TextBox()
         Me.txtMidterm2 = New System.Windows.Forms.TextBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.lblprelim = New System.Windows.Forms.Label()
         Me.lblPrelimGrade6 = New System.Windows.Forms.Label()
         Me.lblPrelimGrade5 = New System.Windows.Forms.Label()
         Me.lblPrelimGrade4 = New System.Windows.Forms.Label()
@@ -158,24 +176,6 @@ Partial Class Form1
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblprelim = New System.Windows.Forms.Label()
-        Me.lblmidterm = New System.Windows.Forms.Label()
-        Me.lblfinal = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel14.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -375,7 +375,7 @@ Partial Class Form1
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label30.Location = New System.Drawing.Point(11, 0)
+        Me.Label30.Location = New System.Drawing.Point(11, 7)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(236, 28)
         Me.Label30.TabIndex = 2
@@ -614,6 +614,72 @@ Partial Class Form1
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(166, 364)
         Me.Panel12.TabIndex = 10
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.SystemColors.Window
+        Me.Label42.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(108, 306)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(42, 25)
+        Me.Label42.TabIndex = 73
+        Me.Label42.Text = "40%"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.SystemColors.Window
+        Me.Label43.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(108, 252)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(42, 25)
+        Me.Label43.TabIndex = 72
+        Me.Label43.Text = "40%"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = System.Drawing.SystemColors.Window
+        Me.Label40.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(108, 200)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(42, 25)
+        Me.Label40.TabIndex = 71
+        Me.Label40.Text = "40%"
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.SystemColors.Window
+        Me.Label41.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(108, 143)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(42, 25)
+        Me.Label41.TabIndex = 70
+        Me.Label41.Text = "40%"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = System.Drawing.SystemColors.Window
+        Me.Label39.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(108, 86)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(42, 25)
+        Me.Label39.TabIndex = 69
+        Me.Label39.Text = "40%"
+        '
+        'lblfinal
+        '
+        Me.lblfinal.AutoSize = True
+        Me.lblfinal.BackColor = System.Drawing.SystemColors.Window
+        Me.lblfinal.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblfinal.Location = New System.Drawing.Point(108, 30)
+        Me.lblfinal.Name = "lblfinal"
+        Me.lblfinal.Size = New System.Drawing.Size(42, 25)
+        Me.lblfinal.TabIndex = 65
+        Me.lblfinal.Text = "40%"
         '
         'lblFinalGrade6
         '
@@ -881,6 +947,72 @@ Partial Class Form1
         Me.Panel11.Size = New System.Drawing.Size(157, 364)
         Me.Panel11.TabIndex = 9
         '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.SystemColors.Window
+        Me.Label28.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(104, 306)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(41, 25)
+        Me.Label28.TabIndex = 73
+        Me.Label28.Text = "30%"
+        '
+        'lblmidterm
+        '
+        Me.lblmidterm.AutoSize = True
+        Me.lblmidterm.BackColor = System.Drawing.SystemColors.Window
+        Me.lblmidterm.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblmidterm.Location = New System.Drawing.Point(104, 29)
+        Me.lblmidterm.Name = "lblmidterm"
+        Me.lblmidterm.Size = New System.Drawing.Size(41, 25)
+        Me.lblmidterm.TabIndex = 64
+        Me.lblmidterm.Text = "30%"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.SystemColors.Window
+        Me.Label31.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(104, 250)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(41, 25)
+        Me.Label31.TabIndex = 72
+        Me.Label31.Text = "30%"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.SystemColors.Window
+        Me.Label33.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(104, 196)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(41, 25)
+        Me.Label33.TabIndex = 71
+        Me.Label33.Text = "30%"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.BackColor = System.Drawing.SystemColors.Window
+        Me.Label37.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(104, 142)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(41, 25)
+        Me.Label37.TabIndex = 70
+        Me.Label37.Text = "30%"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.SystemColors.Window
+        Me.Label38.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(104, 85)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(41, 25)
+        Me.Label38.TabIndex = 69
+        Me.Label38.Text = "30%"
+        '
         'lblMidtermGrade6
         '
         Me.lblMidtermGrade6.AutoSize = True
@@ -1146,6 +1278,72 @@ Partial Class Form1
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(159, 364)
         Me.Panel10.TabIndex = 8
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.SystemColors.Window
+        Me.Label26.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(105, 308)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(41, 25)
+        Me.Label26.TabIndex = 68
+        Me.Label26.Text = "30%"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.SystemColors.Window
+        Me.Label27.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(105, 252)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(41, 25)
+        Me.Label27.TabIndex = 67
+        Me.Label27.Text = "30%"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.SystemColors.Window
+        Me.Label24.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(105, 198)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(41, 25)
+        Me.Label24.TabIndex = 66
+        Me.Label24.Text = "30%"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.SystemColors.Window
+        Me.Label25.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(105, 142)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(41, 25)
+        Me.Label25.TabIndex = 65
+        Me.Label25.Text = "30%"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.SystemColors.Window
+        Me.Label23.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(105, 85)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(41, 25)
+        Me.Label23.TabIndex = 64
+        Me.Label23.Text = "30%"
+        '
+        'lblprelim
+        '
+        Me.lblprelim.AutoSize = True
+        Me.lblprelim.BackColor = System.Drawing.SystemColors.Window
+        Me.lblprelim.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblprelim.Location = New System.Drawing.Point(105, 29)
+        Me.lblprelim.Name = "lblprelim"
+        Me.lblprelim.Size = New System.Drawing.Size(41, 25)
+        Me.lblprelim.TabIndex = 63
+        Me.lblprelim.Text = "30%"
         '
         'lblPrelimGrade6
         '
@@ -1636,7 +1834,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Candara", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label2.Location = New System.Drawing.Point(528, 43)
+        Me.Label2.Location = New System.Drawing.Point(563, 43)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(96, 18)
         Me.Label2.TabIndex = 1
@@ -1647,209 +1845,11 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Candara", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label1.Location = New System.Drawing.Point(356, 3)
+        Me.Label1.Location = New System.Drawing.Point(401, 3)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(446, 42)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Dominican College of Tarlac."
-        '
-        'lblprelim
-        '
-        Me.lblprelim.AutoSize = True
-        Me.lblprelim.BackColor = System.Drawing.SystemColors.Window
-        Me.lblprelim.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblprelim.Location = New System.Drawing.Point(105, 29)
-        Me.lblprelim.Name = "lblprelim"
-        Me.lblprelim.Size = New System.Drawing.Size(41, 25)
-        Me.lblprelim.TabIndex = 63
-        Me.lblprelim.Text = "30%"
-        '
-        'lblmidterm
-        '
-        Me.lblmidterm.AutoSize = True
-        Me.lblmidterm.BackColor = System.Drawing.SystemColors.Window
-        Me.lblmidterm.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblmidterm.Location = New System.Drawing.Point(104, 29)
-        Me.lblmidterm.Name = "lblmidterm"
-        Me.lblmidterm.Size = New System.Drawing.Size(41, 25)
-        Me.lblmidterm.TabIndex = 64
-        Me.lblmidterm.Text = "30%"
-        '
-        'lblfinal
-        '
-        Me.lblfinal.AutoSize = True
-        Me.lblfinal.BackColor = System.Drawing.SystemColors.Window
-        Me.lblfinal.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblfinal.Location = New System.Drawing.Point(108, 30)
-        Me.lblfinal.Name = "lblfinal"
-        Me.lblfinal.Size = New System.Drawing.Size(42, 25)
-        Me.lblfinal.TabIndex = 65
-        Me.lblfinal.Text = "40%"
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.BackColor = System.Drawing.SystemColors.Window
-        Me.Label23.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(105, 85)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(41, 25)
-        Me.Label23.TabIndex = 64
-        Me.Label23.Text = "30%"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.BackColor = System.Drawing.SystemColors.Window
-        Me.Label24.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(105, 198)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(41, 25)
-        Me.Label24.TabIndex = 66
-        Me.Label24.Text = "30%"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.BackColor = System.Drawing.SystemColors.Window
-        Me.Label25.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(105, 142)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(41, 25)
-        Me.Label25.TabIndex = 65
-        Me.Label25.Text = "30%"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.BackColor = System.Drawing.SystemColors.Window
-        Me.Label26.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(105, 308)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(41, 25)
-        Me.Label26.TabIndex = 68
-        Me.Label26.Text = "30%"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.BackColor = System.Drawing.SystemColors.Window
-        Me.Label27.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(105, 252)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(41, 25)
-        Me.Label27.TabIndex = 67
-        Me.Label27.Text = "30%"
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.BackColor = System.Drawing.SystemColors.Window
-        Me.Label28.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(104, 306)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(41, 25)
-        Me.Label28.TabIndex = 73
-        Me.Label28.Text = "30%"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.SystemColors.Window
-        Me.Label31.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(104, 250)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(41, 25)
-        Me.Label31.TabIndex = 72
-        Me.Label31.Text = "30%"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.BackColor = System.Drawing.SystemColors.Window
-        Me.Label33.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(104, 196)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(41, 25)
-        Me.Label33.TabIndex = 71
-        Me.Label33.Text = "30%"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.BackColor = System.Drawing.SystemColors.Window
-        Me.Label37.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(104, 142)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(41, 25)
-        Me.Label37.TabIndex = 70
-        Me.Label37.Text = "30%"
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.SystemColors.Window
-        Me.Label38.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(104, 85)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(41, 25)
-        Me.Label38.TabIndex = 69
-        Me.Label38.Text = "30%"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.BackColor = System.Drawing.SystemColors.Window
-        Me.Label39.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(108, 86)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(42, 25)
-        Me.Label39.TabIndex = 69
-        Me.Label39.Text = "40%"
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.BackColor = System.Drawing.SystemColors.Window
-        Me.Label40.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(108, 200)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(42, 25)
-        Me.Label40.TabIndex = 71
-        Me.Label40.Text = "40%"
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.BackColor = System.Drawing.SystemColors.Window
-        Me.Label41.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(108, 143)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(42, 25)
-        Me.Label41.TabIndex = 70
-        Me.Label41.Text = "40%"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = System.Drawing.SystemColors.Window
-        Me.Label42.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(108, 306)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(42, 25)
-        Me.Label42.TabIndex = 73
-        Me.Label42.Text = "40%"
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.BackColor = System.Drawing.SystemColors.Window
-        Me.Label43.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(108, 252)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(42, 25)
-        Me.Label43.TabIndex = 72
-        Me.Label43.Text = "40%"
         '
         'Form1
         '
@@ -1895,30 +1895,121 @@ Partial Class Form1
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Panel6 As Panel
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Panel13 As Panel
-    Friend WithEvents Panel12 As Panel
-    Friend WithEvents Panel11 As Panel
-    Friend WithEvents Panel10 As Panel
-    Friend WithEvents Panel9 As Panel
     Friend WithEvents btnCompute As Button
-    Friend WithEvents txtPrelimTotal1 As TextBox
-    Friend WithEvents txtPrelim1 As TextBox
-    Friend WithEvents txtStudentName5 As TextBox
-    Friend WithEvents txtStudentName4 As TextBox
-    Friend WithEvents txtStudentName3 As TextBox
-    Friend WithEvents txtStudentName2 As TextBox
-    Friend WithEvents txtStudentName1 As TextBox
+    Friend WithEvents Panel14 As Panel
+    Friend WithEvents btnSave As Button
+    Friend WithEvents lblFrstSmTxt As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents lblyrsctn As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents lblRcds As Label
+    Friend WithEvents cmbyrSctn As ComboBox
+    Friend WithEvents cmbCourse As ComboBox
+    Friend WithEvents rbSecondSem As RadioButton
+    Friend WithEvents rbFirstsem As RadioButton
+    Friend WithEvents lblSemesterError1 As Label
+    Friend WithEvents lblSemesterError2 As Label
+    Friend WithEvents lblYearLevel As Label
+    Friend WithEvents cmbRecords As ComboBox
+    Friend WithEvents labelCourse As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents lblCourseTitle As Label
+    Friend WithEvents Panel13 As Panel
+    Friend WithEvents lblStatus6 As Label
+    Friend WithEvents txtFinalGrade6 As TextBox
+    Friend WithEvents lblStatus5 As Label
+    Friend WithEvents lblStatus4 As Label
+    Friend WithEvents lblStatus3 As Label
+    Friend WithEvents lblStatus2 As Label
+    Friend WithEvents lblStatus1 As Label
+    Friend WithEvents txtFinalGrade4 As TextBox
+    Friend WithEvents txtFinalGrade1 As TextBox
+    Friend WithEvents txtFinalGrade2 As TextBox
+    Friend WithEvents txtFinalGrade3 As TextBox
+    Friend WithEvents txtFinalGrade5 As TextBox
+    Friend WithEvents Panel12 As Panel
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents lblfinal As Label
+    Friend WithEvents lblFinalGrade6 As Label
+    Friend WithEvents txtFinalsTotal6 As TextBox
+    Friend WithEvents lblFinalGrade5 As Label
+    Friend WithEvents txtFinals6 As TextBox
+    Friend WithEvents lblFinalGrade4 As Label
+    Friend WithEvents txtFinalsTotal5 As TextBox
+    Friend WithEvents lblFinalGrade3 As Label
+    Friend WithEvents txtFinals5 As TextBox
+    Friend WithEvents lblFinalGrade2 As Label
+    Friend WithEvents txtFinalsTotal4 As TextBox
+    Friend WithEvents lblFinalGrade1 As Label
+    Friend WithEvents txtFinals4 As TextBox
+    Friend WithEvents txtFinalsTotal3 As TextBox
+    Friend WithEvents txtFinals3 As TextBox
+    Friend WithEvents txtFinalsTotal2 As TextBox
+    Friend WithEvents txtFinals2 As TextBox
+    Friend WithEvents txtFinalsTotal1 As TextBox
+    Friend WithEvents txtFinals1 As TextBox
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents Label28 As Label
+    Friend WithEvents lblmidterm As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents lblMidtermGrade6 As Label
+    Friend WithEvents txtMidtermTotal6 As TextBox
+    Friend WithEvents lblMidtermGrade5 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents lblMidtermGrade4 As Label
+    Friend WithEvents txtMidterm6 As TextBox
+    Friend WithEvents lblMidtermGrade3 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents lblMidtermGrade2 As Label
+    Friend WithEvents txtMidtermTotal5 As TextBox
+    Friend WithEvents lblMidtermGrade1 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents txtMidterm5 As TextBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents txtMidtermTotal4 As TextBox
+    Friend WithEvents Label16 As Label
+    Friend WithEvents txtMidterm4 As TextBox
+    Friend WithEvents Label17 As Label
+    Friend WithEvents txtMidtermTotal3 As TextBox
+    Friend WithEvents txtMidterm1 As TextBox
+    Friend WithEvents txtMidterm3 As TextBox
+    Friend WithEvents txtMidtermTotal1 As TextBox
+    Friend WithEvents txtMidtermTotal2 As TextBox
+    Friend WithEvents txtMidterm2 As TextBox
+    Friend WithEvents Panel10 As Panel
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents lblprelim As Label
+    Friend WithEvents lblPrelimGrade6 As Label
+    Friend WithEvents lblPrelimGrade5 As Label
+    Friend WithEvents lblPrelimGrade4 As Label
+    Friend WithEvents lblPrelimGrade3 As Label
+    Friend WithEvents lblPrelimGrade2 As Label
+    Friend WithEvents lblPrelimGrade1 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents txtPrelimTotal6 As TextBox
+    Friend WithEvents txtPrelim6 As TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents txtPrelimTotal5 As TextBox
     Friend WithEvents txtPrelim5 As TextBox
@@ -1928,121 +2019,30 @@ Partial Class Form1
     Friend WithEvents txtPrelim3 As TextBox
     Friend WithEvents txtPrelimTotal2 As TextBox
     Friend WithEvents txtPrelim2 As TextBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents lblStatus1 As Label
-    Friend WithEvents txtFinalGrade4 As TextBox
-    Friend WithEvents txtFinalGrade1 As TextBox
-    Friend WithEvents txtFinalGrade2 As TextBox
-    Friend WithEvents txtFinalGrade3 As TextBox
-    Friend WithEvents txtFinalGrade5 As TextBox
-    Friend WithEvents lblStatus5 As Label
-    Friend WithEvents lblStatus4 As Label
-    Friend WithEvents lblStatus3 As Label
-    Friend WithEvents lblStatus2 As Label
-    Friend WithEvents Panel14 As Panel
-    Friend WithEvents btnSave As Button
-    Friend WithEvents lblFrstSmTxt As Label
-    Friend WithEvents Label30 As Label
-    Friend WithEvents lblyrsctn As Label
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents lblRcds As Label
-    Friend WithEvents cmbyrSctn As ComboBox
-    Friend WithEvents lblStatus6 As Label
-    Friend WithEvents txtFinalGrade6 As TextBox
-    Friend WithEvents Label36 As Label
-    Friend WithEvents Label35 As Label
-    Friend WithEvents Label34 As Label
-    Friend WithEvents txtPrelimTotal6 As TextBox
-    Friend WithEvents txtPrelim6 As TextBox
-    Friend WithEvents txtStudentName6 As TextBox
-    Friend WithEvents cmbCourse As ComboBox
-    Friend WithEvents rbSecondSem As RadioButton
-    Friend WithEvents rbFirstsem As RadioButton
-    Friend WithEvents lblSemesterError1 As Label
-    Friend WithEvents lblNameError1 As Label
+    Friend WithEvents txtPrelimTotal1 As TextBox
+    Friend WithEvents txtPrelim1 As TextBox
+    Friend WithEvents Panel9 As Panel
     Friend WithEvents lblNameError6 As Label
     Friend WithEvents lblNameError5 As Label
     Friend WithEvents lblNameError4 As Label
     Friend WithEvents lblNameError3 As Label
     Friend WithEvents lblNameError2 As Label
-    Friend WithEvents lblSemesterError2 As Label
-    Friend WithEvents lblYearLevel As Label
-    Friend WithEvents txtMidtermTotal6 As TextBox
-    Friend WithEvents txtMidterm6 As TextBox
-    Friend WithEvents txtMidtermTotal5 As TextBox
-    Friend WithEvents txtMidterm5 As TextBox
-    Friend WithEvents txtMidtermTotal4 As TextBox
-    Friend WithEvents txtMidterm4 As TextBox
-    Friend WithEvents txtMidtermTotal3 As TextBox
-    Friend WithEvents txtMidterm1 As TextBox
-    Friend WithEvents txtMidterm3 As TextBox
-    Friend WithEvents txtMidtermTotal1 As TextBox
-    Friend WithEvents txtMidtermTotal2 As TextBox
-    Friend WithEvents txtMidterm2 As TextBox
-    Friend WithEvents txtFinalsTotal6 As TextBox
-    Friend WithEvents txtFinals6 As TextBox
-    Friend WithEvents txtFinalsTotal5 As TextBox
-    Friend WithEvents txtFinals5 As TextBox
-    Friend WithEvents txtFinalsTotal4 As TextBox
-    Friend WithEvents txtFinals4 As TextBox
-    Friend WithEvents txtFinalsTotal3 As TextBox
-    Friend WithEvents txtFinals3 As TextBox
-    Friend WithEvents txtFinalsTotal2 As TextBox
-    Friend WithEvents txtFinals2 As TextBox
-    Friend WithEvents txtFinalsTotal1 As TextBox
-    Friend WithEvents txtFinals1 As TextBox
-    Friend WithEvents lblPrelimGrade6 As Label
-    Friend WithEvents lblPrelimGrade5 As Label
-    Friend WithEvents lblPrelimGrade4 As Label
-    Friend WithEvents lblPrelimGrade3 As Label
-    Friend WithEvents lblPrelimGrade2 As Label
-    Friend WithEvents lblPrelimGrade1 As Label
-    Friend WithEvents lblFinalGrade6 As Label
-    Friend WithEvents lblFinalGrade5 As Label
-    Friend WithEvents lblFinalGrade4 As Label
-    Friend WithEvents lblFinalGrade3 As Label
-    Friend WithEvents lblFinalGrade2 As Label
-    Friend WithEvents lblFinalGrade1 As Label
-    Friend WithEvents lblMidtermGrade6 As Label
-    Friend WithEvents lblMidtermGrade5 As Label
-    Friend WithEvents lblMidtermGrade4 As Label
-    Friend WithEvents lblMidtermGrade3 As Label
-    Friend WithEvents lblMidtermGrade2 As Label
-    Friend WithEvents lblMidtermGrade1 As Label
-    Friend WithEvents lblCourseTitle As Label
-    Friend WithEvents cmbRecords As ComboBox
-    Friend WithEvents labelCourse As Label
-    Friend WithEvents lblprelim As Label
-    Friend WithEvents lblfinal As Label
-    Friend WithEvents lblmidterm As Label
-    Friend WithEvents Label42 As Label
-    Friend WithEvents Label43 As Label
-    Friend WithEvents Label40 As Label
-    Friend WithEvents Label41 As Label
-    Friend WithEvents Label39 As Label
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Label37 As Label
-    Friend WithEvents Label38 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label23 As Label
+    Friend WithEvents lblNameError1 As Label
+    Friend WithEvents txtStudentName6 As TextBox
+    Friend WithEvents txtStudentName5 As TextBox
+    Friend WithEvents txtStudentName4 As TextBox
+    Friend WithEvents txtStudentName3 As TextBox
+    Friend WithEvents txtStudentName2 As TextBox
+    Friend WithEvents txtStudentName1 As TextBox
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label4 As Label
 End Class
