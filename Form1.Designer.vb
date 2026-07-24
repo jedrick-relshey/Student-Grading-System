@@ -176,6 +176,7 @@ Partial Class Form1
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1.SuspendLayout()
         Me.Panel14.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -417,6 +418,7 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.LightYellow
+        Me.Panel4.Controls.Add(Me.TableLayoutPanel1)
         Me.Panel4.Controls.Add(Me.lblCourseTitle)
         Me.Panel4.Controls.Add(Me.Panel13)
         Me.Panel4.Controls.Add(Me.Panel12)
@@ -460,7 +462,7 @@ Partial Class Form1
         Me.Panel13.Controls.Add(Me.txtFinalGrade5)
         Me.Panel13.Location = New System.Drawing.Point(978, 94)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(166, 364)
+        Me.Panel13.Size = New System.Drawing.Size(172, 364)
         Me.Panel13.TabIndex = 7
         '
         'lblStatus6
@@ -1753,7 +1755,7 @@ Partial Class Form1
         Me.Panel7.Controls.Add(Me.Label6)
         Me.Panel7.Location = New System.Drawing.Point(978, 51)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(166, 42)
+        Me.Panel7.Size = New System.Drawing.Size(172, 42)
         Me.Panel7.TabIndex = 6
         '
         'Label6
@@ -1850,6 +1852,30 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(446, 42)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Dominican College of Tarlac."
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.TableLayoutPanel1.ColumnCount = 6
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.21526!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.78474!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 142.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131.0!))
+        Me.TableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(247, 51)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 7
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56.70103!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.29897!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 51.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(903, 407)
+        Me.TableLayoutPanel1.TabIndex = 11
         '
         'Form1
         '
@@ -2045,4 +2071,5 @@ Partial Class Form1
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label29 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
 End Class
