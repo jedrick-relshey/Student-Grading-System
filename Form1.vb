@@ -11,20 +11,14 @@
         }
 
         For Each txt As TextBox In gradeBoxes
-
             AddHandler txt.KeyPress, AddressOf Grade_KeyPress
             AddHandler txt.TextChanged, AddressOf Grade_TextChanged
-
         Next
 
         'Combobox Year Level
         cmbCourse.Items.Add("BSIT")
         cmbCourse.Items.Add("BSHM")
         cmbCourse.Items.Add("BSCRIM")
-
-        'Selection
-        cmbCourse.SelectedIndex = -1
-        cmbyrSctn.SelectedIndex = -1
 
         'For panel Records one click the Record Combo Box
         pnlRecords.Visible = False
@@ -316,6 +310,52 @@
             txtRecordFinalGrade6.Text = txtFinalGrade6.Text
 
             MessageBox.Show("Grade successfully saved!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+            'Clear Student Names
+            txtStudentName1.Clear()
+            txtStudentName2.Clear()
+            txtStudentName3.Clear()
+            txtStudentName4.Clear()
+            txtStudentName5.Clear()
+            txtStudentName6.Clear()
+
+            'Clear Prelims
+            txtPrelim1.Clear()
+            txtPrelim2.Clear()
+            txtPrelim3.Clear()
+            txtPrelim4.Clear()
+            txtPrelim5.Clear()
+            txtPrelim6.Clear()
+
+            'Clear Midterms
+            txtMidterm1.Clear()
+            txtMidterm2.Clear()
+            txtMidterm3.Clear()
+            txtMidterm4.Clear()
+            txtMidterm5.Clear()
+            txtMidterm6.Clear()
+
+            'Clear Finals
+            txtFinals1.Clear()
+            txtFinals2.Clear()
+            txtFinals3.Clear()
+            txtFinals4.Clear()
+            txtFinals5.Clear()
+            txtFinals6.Clear()
+
+            'Clear Final Grades
+            txtFinalGrade1.Clear()
+            txtFinalGrade2.Clear()
+            txtFinalGrade3.Clear()
+            txtFinalGrade4.Clear()
+            txtFinalGrade5.Clear()
+            txtFinalGrade6.Clear()
+
+            'Selection
+            cmbCourse.SelectedIndex = -1
+            cmbyrSctn.SelectedIndex = -1
+            rbFirstsem.Checked = False
+            rbSecondSem.Checked = False
 
         End If
     End Sub

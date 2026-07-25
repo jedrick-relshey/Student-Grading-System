@@ -41,7 +41,7 @@ Partial Class Form1
         Me.lblyrsctn = New System.Windows.Forms.Label()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnCompute = New System.Windows.Forms.Button()
-        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.pnlInput = New System.Windows.Forms.Panel()
         Me.lblCourseTitle = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.lblStatus6 = New System.Windows.Forms.Label()
@@ -219,7 +219,7 @@ Partial Class Form1
         Me.Panel1.SuspendLayout()
         Me.Panel14.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel4.SuspendLayout()
+        Me.pnlInput.SuspendLayout()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel11.SuspendLayout()
@@ -238,8 +238,9 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.BlanchedAlmond
+        Me.Panel1.Controls.Add(Me.pnlRecords)
         Me.Panel1.Controls.Add(Me.Panel14)
-        Me.Panel1.Controls.Add(Me.Panel4)
+        Me.Panel1.Controls.Add(Me.pnlInput)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
@@ -456,32 +457,31 @@ Partial Class Form1
         Me.btnCompute.Text = "COMPUTE"
         Me.btnCompute.UseVisualStyleBackColor = False
         '
-        'Panel4
+        'pnlInput
         '
-        Me.Panel4.BackColor = System.Drawing.Color.LightYellow
-        Me.Panel4.Controls.Add(Me.pnlRecords)
-        Me.Panel4.Controls.Add(Me.lblCourseTitle)
-        Me.Panel4.Controls.Add(Me.Panel13)
-        Me.Panel4.Controls.Add(Me.Panel12)
-        Me.Panel4.Controls.Add(Me.Panel11)
-        Me.Panel4.Controls.Add(Me.Panel10)
-        Me.Panel4.Controls.Add(Me.Panel9)
-        Me.Panel4.Controls.Add(Me.Panel6)
-        Me.Panel4.Controls.Add(Me.Panel5)
-        Me.Panel4.Controls.Add(Me.Panel7)
-        Me.Panel4.Controls.Add(Me.Panel8)
-        Me.Panel4.Controls.Add(Me.Panel3)
-        Me.Panel4.Location = New System.Drawing.Point(19, 112)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1150, 458)
-        Me.Panel4.TabIndex = 3
+        Me.pnlInput.BackColor = System.Drawing.Color.LightYellow
+        Me.pnlInput.Controls.Add(Me.lblCourseTitle)
+        Me.pnlInput.Controls.Add(Me.Panel13)
+        Me.pnlInput.Controls.Add(Me.Panel12)
+        Me.pnlInput.Controls.Add(Me.Panel11)
+        Me.pnlInput.Controls.Add(Me.Panel10)
+        Me.pnlInput.Controls.Add(Me.Panel9)
+        Me.pnlInput.Controls.Add(Me.Panel6)
+        Me.pnlInput.Controls.Add(Me.Panel5)
+        Me.pnlInput.Controls.Add(Me.Panel7)
+        Me.pnlInput.Controls.Add(Me.Panel8)
+        Me.pnlInput.Controls.Add(Me.Panel3)
+        Me.pnlInput.Location = New System.Drawing.Point(260, 112)
+        Me.pnlInput.Name = "pnlInput"
+        Me.pnlInput.Size = New System.Drawing.Size(903, 458)
+        Me.pnlInput.TabIndex = 3
         '
         'lblCourseTitle
         '
         Me.lblCourseTitle.AutoSize = True
         Me.lblCourseTitle.Font = New System.Drawing.Font("Candara", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCourseTitle.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblCourseTitle.Location = New System.Drawing.Point(247, 6)
+        Me.lblCourseTitle.Location = New System.Drawing.Point(10, 6)
         Me.lblCourseTitle.Name = "lblCourseTitle"
         Me.lblCourseTitle.Size = New System.Drawing.Size(0, 42)
         Me.lblCourseTitle.TabIndex = 2
@@ -501,9 +501,9 @@ Partial Class Form1
         Me.Panel13.Controls.Add(Me.txtFinalGrade2)
         Me.Panel13.Controls.Add(Me.txtFinalGrade3)
         Me.Panel13.Controls.Add(Me.txtFinalGrade5)
-        Me.Panel13.Location = New System.Drawing.Point(978, 94)
+        Me.Panel13.Location = New System.Drawing.Point(737, 94)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(172, 364)
+        Me.Panel13.Size = New System.Drawing.Size(159, 364)
         Me.Panel13.TabIndex = 7
         '
         'lblStatus6
@@ -653,7 +653,7 @@ Partial Class Form1
         Me.Panel12.Controls.Add(Me.Label20)
         Me.Panel12.Controls.Add(Me.Label21)
         Me.Panel12.Controls.Add(Me.Label22)
-        Me.Panel12.Location = New System.Drawing.Point(806, 94)
+        Me.Panel12.Location = New System.Drawing.Point(566, 94)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(166, 364)
         Me.Panel12.TabIndex = 10
@@ -985,7 +985,7 @@ Partial Class Form1
         Me.Panel11.Controls.Add(Me.txtMidtermTotal1)
         Me.Panel11.Controls.Add(Me.txtMidtermTotal2)
         Me.Panel11.Controls.Add(Me.txtMidterm2)
-        Me.Panel11.Location = New System.Drawing.Point(643, 94)
+        Me.Panel11.Location = New System.Drawing.Point(403, 94)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(157, 364)
         Me.Panel11.TabIndex = 9
@@ -1317,7 +1317,7 @@ Partial Class Form1
         Me.Panel10.Controls.Add(Me.txtPrelim2)
         Me.Panel10.Controls.Add(Me.txtPrelimTotal1)
         Me.Panel10.Controls.Add(Me.txtPrelim1)
-        Me.Panel10.Location = New System.Drawing.Point(477, 94)
+        Me.Panel10.Location = New System.Drawing.Point(237, 94)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(159, 364)
         Me.Panel10.TabIndex = 8
@@ -1631,7 +1631,7 @@ Partial Class Form1
         Me.Panel9.Controls.Add(Me.txtStudentName3)
         Me.Panel9.Controls.Add(Me.txtStudentName2)
         Me.Panel9.Controls.Add(Me.txtStudentName1)
-        Me.Panel9.Location = New System.Drawing.Point(247, 94)
+        Me.Panel9.Location = New System.Drawing.Point(7, 94)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(223, 364)
         Me.Panel9.TabIndex = 3
@@ -1754,7 +1754,7 @@ Partial Class Form1
         '
         Me.Panel6.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Panel6.Controls.Add(Me.Label5)
-        Me.Panel6.Location = New System.Drawing.Point(477, 51)
+        Me.Panel6.Location = New System.Drawing.Point(237, 51)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(159, 42)
         Me.Panel6.TabIndex = 7
@@ -1774,7 +1774,7 @@ Partial Class Form1
         '
         Me.Panel5.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Panel5.Controls.Add(Me.Label3)
-        Me.Panel5.Location = New System.Drawing.Point(643, 51)
+        Me.Panel5.Location = New System.Drawing.Point(403, 51)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(157, 42)
         Me.Panel5.TabIndex = 6
@@ -1794,9 +1794,9 @@ Partial Class Form1
         '
         Me.Panel7.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Panel7.Controls.Add(Me.Label6)
-        Me.Panel7.Location = New System.Drawing.Point(978, 51)
+        Me.Panel7.Location = New System.Drawing.Point(737, 51)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(172, 42)
+        Me.Panel7.Size = New System.Drawing.Size(159, 42)
         Me.Panel7.TabIndex = 6
         '
         'Label6
@@ -1814,7 +1814,7 @@ Partial Class Form1
         '
         Me.Panel8.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Panel8.Controls.Add(Me.Label7)
-        Me.Panel8.Location = New System.Drawing.Point(806, 51)
+        Me.Panel8.Location = New System.Drawing.Point(566, 51)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(166, 42)
         Me.Panel8.TabIndex = 5
@@ -1835,7 +1835,7 @@ Partial Class Form1
         Me.Panel3.BackColor = System.Drawing.Color.DarkSlateGray
         Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Controls.Add(Me.Label4)
-        Me.Panel3.Location = New System.Drawing.Point(247, 51)
+        Me.Panel3.Location = New System.Drawing.Point(7, 51)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(223, 42)
         Me.Panel3.TabIndex = 2
@@ -1931,7 +1931,7 @@ Partial Class Form1
         Me.pnlRecords.Controls.Add(Me.txtRecordStudent3)
         Me.pnlRecords.Controls.Add(Me.txtRecordStudent2)
         Me.pnlRecords.Controls.Add(Me.txtRecordStudent1)
-        Me.pnlRecords.Location = New System.Drawing.Point(247, 0)
+        Me.pnlRecords.Location = New System.Drawing.Point(267, 112)
         Me.pnlRecords.Name = "pnlRecords"
         Me.pnlRecords.Size = New System.Drawing.Size(903, 458)
         Me.pnlRecords.TabIndex = 11
@@ -1944,7 +1944,7 @@ Partial Class Form1
         Me.Panel16.Controls.Add(Me.Label46)
         Me.Panel16.Controls.Add(Me.Label45)
         Me.Panel16.Controls.Add(Me.Label44)
-        Me.Panel16.Location = New System.Drawing.Point(3, 4)
+        Me.Panel16.Location = New System.Drawing.Point(3, 3)
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(897, 63)
         Me.Panel16.TabIndex = 0
@@ -2288,8 +2288,8 @@ Partial Class Form1
         Me.Panel14.ResumeLayout(False)
         Me.Panel14.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
+        Me.pnlInput.ResumeLayout(False)
+        Me.pnlInput.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout()
         Me.Panel12.ResumeLayout(False)
@@ -2342,7 +2342,7 @@ Partial Class Form1
     Friend WithEvents lblYearLevel As Label
     Friend WithEvents cmbRecords As ComboBox
     Friend WithEvents labelCourse As Label
-    Friend WithEvents Panel4 As Panel
+    Friend WithEvents pnlInput As Panel
     Friend WithEvents lblCourseTitle As Label
     Friend WithEvents Panel13 As Panel
     Friend WithEvents lblStatus6 As Label
