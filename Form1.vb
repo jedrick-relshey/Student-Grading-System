@@ -367,12 +367,13 @@
             txtFinalGrade6.Clear()
 
             'Clear Final Text
-            lblStatus1.Text = ""
-            lblStatus2.Text = ""
-            lblStatus3.Text = ""
-            lblStatus4.Text = ""
-            lblStatus5.Text = ""
-            lblStatus6.Text = ""
+            Dim statusLabels As Label() = {
+                lblStatus1, lblStatus2, lblStatus3, lblStatus4, lblStatus5, lblStatus6
+            }
+
+            For Each lbl As Label In statusLabels
+                lbl.Text = ""
+            Next
 
             'Selection
             cmbCourse.SelectedIndex = -1
