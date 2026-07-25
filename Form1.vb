@@ -25,6 +25,9 @@
         'Selection
         cmbCourse.SelectedIndex = -1
         cmbyrSctn.SelectedIndex = -1
+
+        'For panel Records one click the Record Combo Box
+        pnlRecords.Visible = False
     End Sub
 
     Private Sub Grade_KeyPress(sender As Object, e As KeyPressEventArgs)
@@ -263,12 +266,65 @@
             Exit Sub
         End If
 
-        'Confirmation
         If MessageBox.Show("Are you sure you want to save this grade?", "Save", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
 
             'Save Records ComboBox
-            cmbRecords.Items.Add(cmbyrSctn.Text)
+            If Not cmbRecords.Items.Contains(cmbyrSctn.Text) Then
+                cmbRecords.Items.Add(cmbyrSctn.Text)
+            End If
+
+            'Student 1
+            txtRecordStudent1.Text = txtStudentName1.Text
+            txtRecordPrelim1.Text = txtPrelim1.Text
+            txtRecordMidterm1.Text = txtMidterm1.Text
+            txtRecordFinals1.Text = txtFinals1.Text
+            txtRecordFinalGrade1.Text = txtFinalGrade1.Text
+
+            'Student 2
+            txtRecordStudent2.Text = txtStudentName2.Text
+            txtRecordPrelim2.Text = txtPrelim2.Text
+            txtRecordMidterm2.Text = txtMidterm2.Text
+            txtRecordFinals2.Text = txtFinals2.Text
+            txtRecordFinalGrade2.Text = txtFinalGrade2.Text
+
+            'Student 3
+            txtRecordStudent3.Text = txtStudentName3.Text
+            txtRecordPrelim3.Text = txtPrelim3.Text
+            txtRecordMidterm3.Text = txtMidterm3.Text
+            txtRecordFinals3.Text = txtFinals3.Text
+            txtRecordFinalGrade3.Text = txtFinalGrade3.Text
+
+            'Student 4
+            txtRecordStudent4.Text = txtStudentName4.Text
+            txtRecordPrelim4.Text = txtPrelim4.Text
+            txtRecordMidterm4.Text = txtMidterm4.Text
+            txtRecordFinals4.Text = txtFinals4.Text
+            txtRecordFinalGrade4.Text = txtFinalGrade4.Text
+
+            'Student 5
+            txtRecordStudent5.Text = txtStudentName5.Text
+            txtRecordPrelim5.Text = txtPrelim5.Text
+            txtRecordMidterm5.Text = txtMidterm5.Text
+            txtRecordFinals5.Text = txtFinals5.Text
+            txtRecordFinalGrade5.Text = txtFinalGrade5.Text
+
+            'Student 6
+            txtRecordStudent6.Text = txtStudentName6.Text
+            txtRecordPrelim6.Text = txtPrelim6.Text
+            txtRecordMidterm6.Text = txtMidterm6.Text
+            txtRecordFinals6.Text = txtFinals6.Text
+            txtRecordFinalGrade6.Text = txtFinalGrade6.Text
+
             MessageBox.Show("Grade successfully saved!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
         End If
+    End Sub
+
+    Private Sub cmbRecords_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbRecords.SelectedIndexChanged
+        pnlRecords.Visible = True
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        pnlRecords.Visible = False
     End Sub
 End Class
