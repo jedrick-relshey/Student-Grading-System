@@ -323,48 +323,20 @@
 
             MessageBox.Show("Grade successfully saved!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-                'Clear Title Course
-                lblCourseTitle.Text = ""
+            'Clear Title Course
+            lblCourseTitle.Text = ""
 
-                'Clear Student Names
-                txtStudentName1.Clear()
-                txtStudentName2.Clear()
-                txtStudentName3.Clear()
-                txtStudentName4.Clear()
-                txtStudentName5.Clear()
-                txtStudentName6.Clear()
+            Dim textBoxes As TextBox() = {
+                txtStudentName1, txtStudentName2, txtStudentName3, txtStudentName4, txtStudentName5, txtStudentName6,
+                txtPrelim1, txtPrelim2, txtPrelim3, txtPrelim4, txtPrelim5, txtPrelim6,
+                txtMidterm1, txtMidterm2, txtMidterm3, txtMidterm4, txtMidterm5, txtMidterm6,
+                txtFinals1, txtFinals2, txtFinals3, txtFinals4, txtFinals5, txtFinals6,
+                txtFinalGrade1, txtFinalGrade2, txtFinalGrade3, txtFinalGrade4, txtFinalGrade5, txtFinalGrade6
+            }
 
-                'Clear Prelims
-                txtPrelim1.Clear()
-                txtPrelim2.Clear()
-                txtPrelim3.Clear()
-                txtPrelim4.Clear()
-                txtPrelim5.Clear()
-                txtPrelim6.Clear()
-
-                'Clear Midterms
-                txtMidterm1.Clear()
-                txtMidterm2.Clear()
-                txtMidterm3.Clear()
-                txtMidterm4.Clear()
-                txtMidterm5.Clear()
-                txtMidterm6.Clear()
-
-                'Clear Finals
-                txtFinals1.Clear()
-                txtFinals2.Clear()
-                txtFinals3.Clear()
-                txtFinals4.Clear()
-                txtFinals5.Clear()
-                txtFinals6.Clear()
-
-                'Clear Final Grades
-                txtFinalGrade1.Clear()
-                txtFinalGrade2.Clear()
-                txtFinalGrade3.Clear()
-                txtFinalGrade4.Clear()
-                txtFinalGrade5.Clear()
-            txtFinalGrade6.Clear()
+            For Each txt As TextBox In textBoxes
+                txt.Clear()
+            Next
 
             'Clear Final Text
             Dim statusLabels As Label() = {
