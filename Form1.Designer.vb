@@ -204,7 +204,7 @@ Partial Class Form1
         Me.txtStudentName2 = New System.Windows.Forms.TextBox()
         Me.txtStudentName1 = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblYrAndSction = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
@@ -218,6 +218,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblRecordTitle = New System.Windows.Forms.Label()
+        Me.lblYearAndSection = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.pnlInfo.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -251,6 +252,7 @@ Partial Class Form1
         'pnlInfo
         '
         Me.pnlInfo.BackColor = System.Drawing.Color.DimGray
+        Me.pnlInfo.Controls.Add(Me.lblYearAndSection)
         Me.pnlInfo.Controls.Add(Me.labelCourse)
         Me.pnlInfo.Controls.Add(Me.cmbRecords)
         Me.pnlInfo.Controls.Add(Me.lblYearLevel)
@@ -298,11 +300,11 @@ Partial Class Form1
         '
         Me.lblYearLevel.AutoSize = True
         Me.lblYearLevel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblYearLevel.Location = New System.Drawing.Point(25, 288)
+        Me.lblYearLevel.Location = New System.Drawing.Point(35, 288)
         Me.lblYearLevel.Name = "lblYearLevel"
-        Me.lblYearLevel.Size = New System.Drawing.Size(87, 13)
+        Me.lblYearLevel.Size = New System.Drawing.Size(73, 13)
         Me.lblYearLevel.TabIndex = 26
-        Me.lblYearLevel.Text = "Select Year level"
+        Me.lblYearLevel.Text = "Select Course"
         Me.lblYearLevel.Visible = False
         '
         'lblSemesterError2
@@ -526,7 +528,7 @@ Partial Class Form1
         '
         Me.lblSemester.AutoSize = True
         Me.lblSemester.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSemester.Location = New System.Drawing.Point(168, 417)
+        Me.lblSemester.Location = New System.Drawing.Point(174, 424)
         Me.lblSemester.Name = "lblSemester"
         Me.lblSemester.Size = New System.Drawing.Size(108, 28)
         Me.lblSemester.TabIndex = 33
@@ -548,7 +550,7 @@ Partial Class Form1
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(339, 420)
+        Me.Label50.Location = New System.Drawing.Point(427, 427)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(142, 25)
         Me.Label50.TabIndex = 31
@@ -558,7 +560,7 @@ Partial Class Form1
         '
         Me.lblYear_Section.AutoSize = True
         Me.lblYear_Section.Font = New System.Drawing.Font("Cambria", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblYear_Section.Location = New System.Drawing.Point(22, 412)
+        Me.lblYear_Section.Location = New System.Drawing.Point(22, 418)
         Me.lblYear_Section.Name = "lblYear_Section"
         Me.lblYear_Section.Size = New System.Drawing.Size(46, 34)
         Me.lblYear_Section.TabIndex = 30
@@ -2149,22 +2151,22 @@ Partial Class Form1
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.DarkSlateGray
-        Me.Panel6.Controls.Add(Me.Label5)
+        Me.Panel6.Controls.Add(Me.lblYrAndSction)
         Me.Panel6.Location = New System.Drawing.Point(237, 51)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(159, 42)
         Me.Panel6.TabIndex = 7
         '
-        'Label5
+        'lblYrAndSction
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label5.Location = New System.Drawing.Point(33, 4)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(109, 32)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Prelims"
+        Me.lblYrAndSction.AutoSize = True
+        Me.lblYrAndSction.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblYrAndSction.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.lblYrAndSction.Location = New System.Drawing.Point(33, 4)
+        Me.lblYrAndSction.Name = "lblYrAndSction"
+        Me.lblYrAndSction.Size = New System.Drawing.Size(109, 32)
+        Me.lblYrAndSction.TabIndex = 0
+        Me.lblYrAndSction.Text = "Prelims"
         '
         'Panel5
         '
@@ -2300,6 +2302,17 @@ Partial Class Form1
         Me.lblRecordTitle.Size = New System.Drawing.Size(186, 32)
         Me.lblRecordTitle.TabIndex = 3
         Me.lblRecordTitle.Text = "Student Name"
+        '
+        'lblYearAndSection
+        '
+        Me.lblYearAndSection.AutoSize = True
+        Me.lblYearAndSection.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblYearAndSection.Location = New System.Drawing.Point(135, 288)
+        Me.lblYearAndSection.Name = "lblYearAndSection"
+        Me.lblYearAndSection.Size = New System.Drawing.Size(104, 13)
+        Me.lblYearAndSection.TabIndex = 29
+        Me.lblYearAndSection.Text = "Select Year & Section"
+        Me.lblYearAndSection.Visible = False
         '
         'Form1
         '
@@ -2489,7 +2502,7 @@ Partial Class Form1
     Friend WithEvents txtStudentName2 As TextBox
     Friend WithEvents txtStudentName1 As TextBox
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lblYrAndSction As Label
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel7 As Panel
@@ -2541,4 +2554,5 @@ Partial Class Form1
     Friend WithEvents btnBack As Button
     Friend WithEvents lblSemester As Label
     Friend WithEvents lblRecordTitle As Label
+    Friend WithEvents lblYearAndSection As Label
 End Class

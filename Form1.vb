@@ -136,22 +136,34 @@
             Dim txtFinalGrade As TextBox = CType(Controls.Find("txtFinalGrade" & i, True)(0), TextBox)
             Dim lblStatus As Label = CType(Controls.Find("lblStatus" & i, True)(0), Label)
 
-            prelims = Val(txtPrelim.Text) * 0.3
-            midterms = Val(txtMidterm.Text) * 0.3
-            finals = Val(txtFinals.Text) * 0.4
+            If txtPrelim.Text = "" OrElse
+                    txtMidterm.Text = "" OrElse
+                    txtFinals.Text = "" Then
 
-            finalGrade = prelims + midterms + finals
+                txtFinalGrade.Clear()
+                lblStatus.Text = ""
+                lblStatus.Visible = False
 
-            txtFinalGrade.Text = finalGrade.ToString("0.00")
-
-            If finalGrade >= 75 Then
-                lblStatus.Text = "Passed"
-                lblStatus.Visible = True
-                lblStatus.ForeColor = Color.Green
             Else
-                lblStatus.Text = "Failed"
+
+                prelims = Val(txtPrelim.Text) * 0.3
+                midterms = Val(txtMidterm.Text) * 0.3
+                finals = Val(txtFinals.Text) * 0.4
+
+                finalGrade = prelims + midterms + finals
+
+                txtFinalGrade.Text = finalGrade.ToString("0.00")
+
+                If finalGrade >= 75 Then
+                    lblStatus.Text = "Passed"
+                    lblStatus.ForeColor = Color.Green
+                Else
+                    lblStatus.Text = "Failed"
+                    lblStatus.ForeColor = Color.Red
+                End If
+
                 lblStatus.Visible = True
-                lblStatus.ForeColor = Color.Red
+
             End If
         Next
 
@@ -160,6 +172,13 @@
             lblYearLevel.Visible = True
         Else
             lblYearLevel.Visible = False
+        End If
+
+        'Warning Sign for Label of Year And section
+        If cmbyrSctn.Text = "" Then
+            lblYearAndSection.Visible = True
+        Else
+            lblYearAndSection.Visible = False
         End If
 
         'Radio Botton
@@ -261,6 +280,29 @@
 
         If MessageBox.Show("Are you sure you want to save this grade?", "Save", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
 
+            'Warning Label for Course
+            If cmbCourse.Text = "" Then
+                lblYearLevel.Visible = True
+            Else
+                lblYearLevel.Visible = False
+            End If
+
+            'Warning Sign for Label of Year And section
+            If cmbyrSctn.Text = "" Then
+                lblYearAndSection.Visible = True
+            Else
+                lblYearAndSection.Visible = False
+            End If
+
+            'Radio Botton
+            If Not (rbFirstsem.Checked OrElse rbSecondSem.Checked) Then
+                lblSemesterError1.Visible = True
+                lblSemesterError2.Visible = True
+            Else
+                lblSemesterError1.Visible = False
+                lblSemesterError2.Visible = False
+            End If
+
             'Save Records ComboBox
             If Not cmbRecords.Items.Contains(cmbyrSctn.Text) Then
                 cmbRecords.Items.Add(cmbyrSctn.Text)
@@ -349,8 +391,8 @@
 
             'Selection
             cmbCourse.SelectedIndex = -1
-                cmbyrSctn.SelectedIndex = -1
-                rbFirstsem.Checked = False
+            cmbyrSctn.SelectedIndex = -1
+            rbFirstsem.Checked = False
             rbSecondSem.Checked = False
         End If
     End Sub
