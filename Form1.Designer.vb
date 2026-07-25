@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.pnlInfo = New System.Windows.Forms.Panel()
         Me.labelCourse = New System.Windows.Forms.Label()
         Me.cmbRecords = New System.Windows.Forms.ComboBox()
         Me.lblYearLevel = New System.Windows.Forms.Label()
@@ -42,6 +42,47 @@ Partial Class Form1
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnCompute = New System.Windows.Forms.Button()
         Me.pnlInput = New System.Windows.Forms.Panel()
+        Me.pnlRecords = New System.Windows.Forms.Panel()
+        Me.lblSemester = New System.Windows.Forms.Label()
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.lblYear_Section = New System.Windows.Forms.Label()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.txtRecordFinalGrade6 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinalGrade5 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinalGrade4 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinalGrade3 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinalGrade2 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinalGrade1 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinals6 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinals5 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinals4 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinals3 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinals2 = New System.Windows.Forms.TextBox()
+        Me.txtRecordFinals1 = New System.Windows.Forms.TextBox()
+        Me.txtRecordMidterm6 = New System.Windows.Forms.TextBox()
+        Me.txtRecordMidterm5 = New System.Windows.Forms.TextBox()
+        Me.txtRecordMidterm4 = New System.Windows.Forms.TextBox()
+        Me.txtRecordMidterm3 = New System.Windows.Forms.TextBox()
+        Me.txtRecordMidterm2 = New System.Windows.Forms.TextBox()
+        Me.txtRecordMidterm1 = New System.Windows.Forms.TextBox()
+        Me.txtRecordPrelim6 = New System.Windows.Forms.TextBox()
+        Me.txtRecordPrelim5 = New System.Windows.Forms.TextBox()
+        Me.txtRecordPrelim4 = New System.Windows.Forms.TextBox()
+        Me.txtRecordPrelim3 = New System.Windows.Forms.TextBox()
+        Me.txtRecordPrelim2 = New System.Windows.Forms.TextBox()
+        Me.txtRecordPrelim1 = New System.Windows.Forms.TextBox()
+        Me.txtRecordStudent6 = New System.Windows.Forms.TextBox()
+        Me.txtRecordStudent5 = New System.Windows.Forms.TextBox()
+        Me.txtRecordStudent4 = New System.Windows.Forms.TextBox()
+        Me.txtRecordStudent3 = New System.Windows.Forms.TextBox()
+        Me.txtRecordStudent2 = New System.Windows.Forms.TextBox()
+        Me.txtRecordStudent1 = New System.Windows.Forms.TextBox()
         Me.lblCourseTitle = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.lblStatus6 = New System.Windows.Forms.Label()
@@ -176,50 +217,13 @@ Partial Class Form1
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.pnlRecords = New System.Windows.Forms.Panel()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.txtRecordStudent1 = New System.Windows.Forms.TextBox()
-        Me.txtRecordStudent2 = New System.Windows.Forms.TextBox()
-        Me.txtRecordStudent3 = New System.Windows.Forms.TextBox()
-        Me.txtRecordStudent6 = New System.Windows.Forms.TextBox()
-        Me.txtRecordStudent5 = New System.Windows.Forms.TextBox()
-        Me.txtRecordStudent4 = New System.Windows.Forms.TextBox()
-        Me.txtRecordPrelim6 = New System.Windows.Forms.TextBox()
-        Me.txtRecordPrelim5 = New System.Windows.Forms.TextBox()
-        Me.txtRecordPrelim4 = New System.Windows.Forms.TextBox()
-        Me.txtRecordPrelim3 = New System.Windows.Forms.TextBox()
-        Me.txtRecordPrelim2 = New System.Windows.Forms.TextBox()
-        Me.txtRecordPrelim1 = New System.Windows.Forms.TextBox()
-        Me.txtRecordMidterm6 = New System.Windows.Forms.TextBox()
-        Me.txtRecordMidterm5 = New System.Windows.Forms.TextBox()
-        Me.txtRecordMidterm4 = New System.Windows.Forms.TextBox()
-        Me.txtRecordMidterm3 = New System.Windows.Forms.TextBox()
-        Me.txtRecordMidterm2 = New System.Windows.Forms.TextBox()
-        Me.txtRecordMidterm1 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinals6 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinals5 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinals4 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinals3 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinals2 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinals1 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinalGrade6 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinalGrade5 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinalGrade4 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinalGrade3 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinalGrade2 = New System.Windows.Forms.TextBox()
-        Me.txtRecordFinalGrade1 = New System.Windows.Forms.TextBox()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lblRecordTitle = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
-        Me.Panel14.SuspendLayout()
+        Me.pnlInfo.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlInput.SuspendLayout()
+        Me.pnlRecords.SuspendLayout()
+        Me.Panel16.SuspendLayout()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel11.SuspendLayout()
@@ -231,15 +235,12 @@ Partial Class Form1
         Me.Panel8.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        Me.pnlRecords.SuspendLayout()
-        Me.Panel16.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.Panel1.Controls.Add(Me.pnlRecords)
-        Me.Panel1.Controls.Add(Me.Panel14)
+        Me.Panel1.Controls.Add(Me.pnlInfo)
         Me.Panel1.Controls.Add(Me.pnlInput)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
@@ -247,31 +248,31 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(1203, 593)
         Me.Panel1.TabIndex = 0
         '
-        'Panel14
+        'pnlInfo
         '
-        Me.Panel14.BackColor = System.Drawing.Color.DimGray
-        Me.Panel14.Controls.Add(Me.labelCourse)
-        Me.Panel14.Controls.Add(Me.cmbRecords)
-        Me.Panel14.Controls.Add(Me.lblYearLevel)
-        Me.Panel14.Controls.Add(Me.lblSemesterError2)
-        Me.Panel14.Controls.Add(Me.lblSemesterError1)
-        Me.Panel14.Controls.Add(Me.rbSecondSem)
-        Me.Panel14.Controls.Add(Me.rbFirstsem)
-        Me.Panel14.Controls.Add(Me.cmbCourse)
-        Me.Panel14.Controls.Add(Me.PictureBox1)
-        Me.Panel14.Controls.Add(Me.lblRcds)
-        Me.Panel14.Controls.Add(Me.cmbyrSctn)
-        Me.Panel14.Controls.Add(Me.Label32)
-        Me.Panel14.Controls.Add(Me.lblFrstSmTxt)
-        Me.Panel14.Controls.Add(Me.Label30)
-        Me.Panel14.Controls.Add(Me.lblyrsctn)
-        Me.Panel14.Controls.Add(Me.btnSave)
-        Me.Panel14.Controls.Add(Me.btnCompute)
-        Me.Panel14.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Panel14.Location = New System.Drawing.Point(0, 65)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(260, 505)
-        Me.Panel14.TabIndex = 12
+        Me.pnlInfo.BackColor = System.Drawing.Color.DimGray
+        Me.pnlInfo.Controls.Add(Me.labelCourse)
+        Me.pnlInfo.Controls.Add(Me.cmbRecords)
+        Me.pnlInfo.Controls.Add(Me.lblYearLevel)
+        Me.pnlInfo.Controls.Add(Me.lblSemesterError2)
+        Me.pnlInfo.Controls.Add(Me.lblSemesterError1)
+        Me.pnlInfo.Controls.Add(Me.rbSecondSem)
+        Me.pnlInfo.Controls.Add(Me.rbFirstsem)
+        Me.pnlInfo.Controls.Add(Me.cmbCourse)
+        Me.pnlInfo.Controls.Add(Me.PictureBox1)
+        Me.pnlInfo.Controls.Add(Me.lblRcds)
+        Me.pnlInfo.Controls.Add(Me.cmbyrSctn)
+        Me.pnlInfo.Controls.Add(Me.Label32)
+        Me.pnlInfo.Controls.Add(Me.lblFrstSmTxt)
+        Me.pnlInfo.Controls.Add(Me.Label30)
+        Me.pnlInfo.Controls.Add(Me.lblyrsctn)
+        Me.pnlInfo.Controls.Add(Me.btnSave)
+        Me.pnlInfo.Controls.Add(Me.btnCompute)
+        Me.pnlInfo.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.pnlInfo.Location = New System.Drawing.Point(0, 65)
+        Me.pnlInfo.Name = "pnlInfo"
+        Me.pnlInfo.Size = New System.Drawing.Size(260, 505)
+        Me.pnlInfo.TabIndex = 12
         '
         'labelCourse
         '
@@ -460,6 +461,7 @@ Partial Class Form1
         'pnlInput
         '
         Me.pnlInput.BackColor = System.Drawing.Color.LightYellow
+        Me.pnlInput.Controls.Add(Me.pnlRecords)
         Me.pnlInput.Controls.Add(Me.lblCourseTitle)
         Me.pnlInput.Controls.Add(Me.Panel13)
         Me.pnlInput.Controls.Add(Me.Panel12)
@@ -475,6 +477,400 @@ Partial Class Form1
         Me.pnlInput.Name = "pnlInput"
         Me.pnlInput.Size = New System.Drawing.Size(903, 458)
         Me.pnlInput.TabIndex = 3
+        '
+        'pnlRecords
+        '
+        Me.pnlRecords.BackColor = System.Drawing.Color.Linen
+        Me.pnlRecords.Controls.Add(Me.lblRecordTitle)
+        Me.pnlRecords.Controls.Add(Me.lblSemester)
+        Me.pnlRecords.Controls.Add(Me.btnBack)
+        Me.pnlRecords.Controls.Add(Me.Label50)
+        Me.pnlRecords.Controls.Add(Me.lblYear_Section)
+        Me.pnlRecords.Controls.Add(Me.Panel16)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade6)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade5)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade4)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade3)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade2)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade1)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinals6)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinals5)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinals4)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinals3)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinals2)
+        Me.pnlRecords.Controls.Add(Me.txtRecordFinals1)
+        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm6)
+        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm5)
+        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm4)
+        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm3)
+        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm2)
+        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm1)
+        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim6)
+        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim5)
+        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim4)
+        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim3)
+        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim2)
+        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim1)
+        Me.pnlRecords.Controls.Add(Me.txtRecordStudent6)
+        Me.pnlRecords.Controls.Add(Me.txtRecordStudent5)
+        Me.pnlRecords.Controls.Add(Me.txtRecordStudent4)
+        Me.pnlRecords.Controls.Add(Me.txtRecordStudent3)
+        Me.pnlRecords.Controls.Add(Me.txtRecordStudent2)
+        Me.pnlRecords.Controls.Add(Me.txtRecordStudent1)
+        Me.pnlRecords.Location = New System.Drawing.Point(0, 0)
+        Me.pnlRecords.Name = "pnlRecords"
+        Me.pnlRecords.Size = New System.Drawing.Size(903, 458)
+        Me.pnlRecords.TabIndex = 11
+        '
+        'lblSemester
+        '
+        Me.lblSemester.AutoSize = True
+        Me.lblSemester.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSemester.Location = New System.Drawing.Point(168, 417)
+        Me.lblSemester.Name = "lblSemester"
+        Me.lblSemester.Size = New System.Drawing.Size(108, 28)
+        Me.lblSemester.TabIndex = 33
+        Me.lblSemester.Text = "Semester"
+        '
+        'btnBack
+        '
+        Me.btnBack.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBack.ForeColor = System.Drawing.SystemColors.Control
+        Me.btnBack.Location = New System.Drawing.Point(757, 406)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(103, 40)
+        Me.btnBack.TabIndex = 32
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = False
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(339, 420)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(142, 25)
+        Me.Label50.TabIndex = 31
+        Me.Label50.Text = "SY 2026-2027"
+        '
+        'lblYear_Section
+        '
+        Me.lblYear_Section.AutoSize = True
+        Me.lblYear_Section.Font = New System.Drawing.Font("Cambria", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblYear_Section.Location = New System.Drawing.Point(22, 412)
+        Me.lblYear_Section.Name = "lblYear_Section"
+        Me.lblYear_Section.Size = New System.Drawing.Size(46, 34)
+        Me.lblYear_Section.TabIndex = 30
+        Me.lblYear_Section.Text = "YS"
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.Panel16.Controls.Add(Me.Label48)
+        Me.Panel16.Controls.Add(Me.Label47)
+        Me.Panel16.Controls.Add(Me.Label46)
+        Me.Panel16.Controls.Add(Me.Label45)
+        Me.Panel16.Controls.Add(Me.Label44)
+        Me.Panel16.Location = New System.Drawing.Point(3, 59)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(897, 63)
+        Me.Panel16.TabIndex = 0
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label48.Location = New System.Drawing.Point(731, 15)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(154, 32)
+        Me.Label48.TabIndex = 1
+        Me.Label48.Text = "Final Grade"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label47.Location = New System.Drawing.Point(606, 15)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(87, 32)
+        Me.Label47.TabIndex = 1
+        Me.Label47.Text = "Finals"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label46.Location = New System.Drawing.Point(416, 15)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(133, 32)
+        Me.Label46.TabIndex = 1
+        Me.Label46.Text = "Midterms"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label45.Location = New System.Drawing.Point(253, 15)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(109, 32)
+        Me.Label45.TabIndex = 1
+        Me.Label45.Text = "Prelims"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label44.Location = New System.Drawing.Point(19, 15)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(186, 32)
+        Me.Label44.TabIndex = 2
+        Me.Label44.Text = "Student Name"
+        '
+        'txtRecordFinalGrade6
+        '
+        Me.txtRecordFinalGrade6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinalGrade6.Location = New System.Drawing.Point(757, 360)
+        Me.txtRecordFinalGrade6.Name = "txtRecordFinalGrade6"
+        Me.txtRecordFinalGrade6.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinalGrade6.TabIndex = 29
+        '
+        'txtRecordFinalGrade5
+        '
+        Me.txtRecordFinalGrade5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinalGrade5.Location = New System.Drawing.Point(757, 316)
+        Me.txtRecordFinalGrade5.Name = "txtRecordFinalGrade5"
+        Me.txtRecordFinalGrade5.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinalGrade5.TabIndex = 28
+        '
+        'txtRecordFinalGrade4
+        '
+        Me.txtRecordFinalGrade4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinalGrade4.Location = New System.Drawing.Point(757, 271)
+        Me.txtRecordFinalGrade4.Name = "txtRecordFinalGrade4"
+        Me.txtRecordFinalGrade4.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinalGrade4.TabIndex = 27
+        '
+        'txtRecordFinalGrade3
+        '
+        Me.txtRecordFinalGrade3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinalGrade3.Location = New System.Drawing.Point(757, 225)
+        Me.txtRecordFinalGrade3.Name = "txtRecordFinalGrade3"
+        Me.txtRecordFinalGrade3.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinalGrade3.TabIndex = 26
+        '
+        'txtRecordFinalGrade2
+        '
+        Me.txtRecordFinalGrade2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinalGrade2.Location = New System.Drawing.Point(757, 181)
+        Me.txtRecordFinalGrade2.Name = "txtRecordFinalGrade2"
+        Me.txtRecordFinalGrade2.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinalGrade2.TabIndex = 25
+        '
+        'txtRecordFinalGrade1
+        '
+        Me.txtRecordFinalGrade1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinalGrade1.Location = New System.Drawing.Point(757, 138)
+        Me.txtRecordFinalGrade1.Name = "txtRecordFinalGrade1"
+        Me.txtRecordFinalGrade1.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinalGrade1.TabIndex = 24
+        '
+        'txtRecordFinals6
+        '
+        Me.txtRecordFinals6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinals6.Location = New System.Drawing.Point(598, 361)
+        Me.txtRecordFinals6.Name = "txtRecordFinals6"
+        Me.txtRecordFinals6.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinals6.TabIndex = 23
+        '
+        'txtRecordFinals5
+        '
+        Me.txtRecordFinals5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinals5.Location = New System.Drawing.Point(598, 317)
+        Me.txtRecordFinals5.Name = "txtRecordFinals5"
+        Me.txtRecordFinals5.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinals5.TabIndex = 22
+        '
+        'txtRecordFinals4
+        '
+        Me.txtRecordFinals4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinals4.Location = New System.Drawing.Point(598, 272)
+        Me.txtRecordFinals4.Name = "txtRecordFinals4"
+        Me.txtRecordFinals4.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinals4.TabIndex = 21
+        '
+        'txtRecordFinals3
+        '
+        Me.txtRecordFinals3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinals3.Location = New System.Drawing.Point(598, 226)
+        Me.txtRecordFinals3.Name = "txtRecordFinals3"
+        Me.txtRecordFinals3.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinals3.TabIndex = 20
+        '
+        'txtRecordFinals2
+        '
+        Me.txtRecordFinals2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinals2.Location = New System.Drawing.Point(598, 182)
+        Me.txtRecordFinals2.Name = "txtRecordFinals2"
+        Me.txtRecordFinals2.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinals2.TabIndex = 19
+        '
+        'txtRecordFinals1
+        '
+        Me.txtRecordFinals1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordFinals1.Location = New System.Drawing.Point(598, 139)
+        Me.txtRecordFinals1.Name = "txtRecordFinals1"
+        Me.txtRecordFinals1.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordFinals1.TabIndex = 18
+        '
+        'txtRecordMidterm6
+        '
+        Me.txtRecordMidterm6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordMidterm6.Location = New System.Drawing.Point(428, 362)
+        Me.txtRecordMidterm6.Name = "txtRecordMidterm6"
+        Me.txtRecordMidterm6.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordMidterm6.TabIndex = 17
+        '
+        'txtRecordMidterm5
+        '
+        Me.txtRecordMidterm5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordMidterm5.Location = New System.Drawing.Point(428, 318)
+        Me.txtRecordMidterm5.Name = "txtRecordMidterm5"
+        Me.txtRecordMidterm5.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordMidterm5.TabIndex = 16
+        '
+        'txtRecordMidterm4
+        '
+        Me.txtRecordMidterm4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordMidterm4.Location = New System.Drawing.Point(428, 273)
+        Me.txtRecordMidterm4.Name = "txtRecordMidterm4"
+        Me.txtRecordMidterm4.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordMidterm4.TabIndex = 15
+        '
+        'txtRecordMidterm3
+        '
+        Me.txtRecordMidterm3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordMidterm3.Location = New System.Drawing.Point(428, 227)
+        Me.txtRecordMidterm3.Name = "txtRecordMidterm3"
+        Me.txtRecordMidterm3.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordMidterm3.TabIndex = 14
+        '
+        'txtRecordMidterm2
+        '
+        Me.txtRecordMidterm2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordMidterm2.Location = New System.Drawing.Point(428, 183)
+        Me.txtRecordMidterm2.Name = "txtRecordMidterm2"
+        Me.txtRecordMidterm2.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordMidterm2.TabIndex = 13
+        '
+        'txtRecordMidterm1
+        '
+        Me.txtRecordMidterm1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordMidterm1.Location = New System.Drawing.Point(428, 140)
+        Me.txtRecordMidterm1.Name = "txtRecordMidterm1"
+        Me.txtRecordMidterm1.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordMidterm1.TabIndex = 12
+        '
+        'txtRecordPrelim6
+        '
+        Me.txtRecordPrelim6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordPrelim6.Location = New System.Drawing.Point(259, 363)
+        Me.txtRecordPrelim6.Name = "txtRecordPrelim6"
+        Me.txtRecordPrelim6.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordPrelim6.TabIndex = 11
+        '
+        'txtRecordPrelim5
+        '
+        Me.txtRecordPrelim5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordPrelim5.Location = New System.Drawing.Point(259, 319)
+        Me.txtRecordPrelim5.Name = "txtRecordPrelim5"
+        Me.txtRecordPrelim5.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordPrelim5.TabIndex = 10
+        '
+        'txtRecordPrelim4
+        '
+        Me.txtRecordPrelim4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordPrelim4.Location = New System.Drawing.Point(259, 274)
+        Me.txtRecordPrelim4.Name = "txtRecordPrelim4"
+        Me.txtRecordPrelim4.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordPrelim4.TabIndex = 9
+        '
+        'txtRecordPrelim3
+        '
+        Me.txtRecordPrelim3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordPrelim3.Location = New System.Drawing.Point(259, 228)
+        Me.txtRecordPrelim3.Name = "txtRecordPrelim3"
+        Me.txtRecordPrelim3.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordPrelim3.TabIndex = 8
+        '
+        'txtRecordPrelim2
+        '
+        Me.txtRecordPrelim2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordPrelim2.Location = New System.Drawing.Point(259, 184)
+        Me.txtRecordPrelim2.Name = "txtRecordPrelim2"
+        Me.txtRecordPrelim2.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordPrelim2.TabIndex = 7
+        '
+        'txtRecordPrelim1
+        '
+        Me.txtRecordPrelim1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordPrelim1.Location = New System.Drawing.Point(259, 141)
+        Me.txtRecordPrelim1.Name = "txtRecordPrelim1"
+        Me.txtRecordPrelim1.Size = New System.Drawing.Size(103, 36)
+        Me.txtRecordPrelim1.TabIndex = 6
+        '
+        'txtRecordStudent6
+        '
+        Me.txtRecordStudent6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordStudent6.Location = New System.Drawing.Point(25, 363)
+        Me.txtRecordStudent6.Name = "txtRecordStudent6"
+        Me.txtRecordStudent6.Size = New System.Drawing.Size(178, 36)
+        Me.txtRecordStudent6.TabIndex = 5
+        '
+        'txtRecordStudent5
+        '
+        Me.txtRecordStudent5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordStudent5.Location = New System.Drawing.Point(25, 319)
+        Me.txtRecordStudent5.Name = "txtRecordStudent5"
+        Me.txtRecordStudent5.Size = New System.Drawing.Size(178, 36)
+        Me.txtRecordStudent5.TabIndex = 4
+        '
+        'txtRecordStudent4
+        '
+        Me.txtRecordStudent4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordStudent4.Location = New System.Drawing.Point(25, 274)
+        Me.txtRecordStudent4.Name = "txtRecordStudent4"
+        Me.txtRecordStudent4.Size = New System.Drawing.Size(178, 36)
+        Me.txtRecordStudent4.TabIndex = 3
+        '
+        'txtRecordStudent3
+        '
+        Me.txtRecordStudent3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordStudent3.Location = New System.Drawing.Point(25, 228)
+        Me.txtRecordStudent3.Name = "txtRecordStudent3"
+        Me.txtRecordStudent3.Size = New System.Drawing.Size(178, 36)
+        Me.txtRecordStudent3.TabIndex = 2
+        '
+        'txtRecordStudent2
+        '
+        Me.txtRecordStudent2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordStudent2.Location = New System.Drawing.Point(25, 184)
+        Me.txtRecordStudent2.Name = "txtRecordStudent2"
+        Me.txtRecordStudent2.Size = New System.Drawing.Size(178, 36)
+        Me.txtRecordStudent2.TabIndex = 1
+        '
+        'txtRecordStudent1
+        '
+        Me.txtRecordStudent1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRecordStudent1.Location = New System.Drawing.Point(25, 141)
+        Me.txtRecordStudent1.Name = "txtRecordStudent1"
+        Me.txtRecordStudent1.Size = New System.Drawing.Size(178, 36)
+        Me.txtRecordStudent1.TabIndex = 0
         '
         'lblCourseTitle
         '
@@ -1894,387 +2290,16 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Dominican College of Tarlac."
         '
-        'pnlRecords
-        '
-        Me.pnlRecords.BackColor = System.Drawing.Color.Linen
-        Me.pnlRecords.Controls.Add(Me.Button1)
-        Me.pnlRecords.Controls.Add(Me.Label50)
-        Me.pnlRecords.Controls.Add(Me.Label49)
-        Me.pnlRecords.Controls.Add(Me.Panel16)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade6)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade5)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade4)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade3)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade2)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinalGrade1)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinals6)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinals5)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinals4)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinals3)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinals2)
-        Me.pnlRecords.Controls.Add(Me.txtRecordFinals1)
-        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm6)
-        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm5)
-        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm4)
-        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm3)
-        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm2)
-        Me.pnlRecords.Controls.Add(Me.txtRecordMidterm1)
-        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim6)
-        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim5)
-        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim4)
-        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim3)
-        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim2)
-        Me.pnlRecords.Controls.Add(Me.txtRecordPrelim1)
-        Me.pnlRecords.Controls.Add(Me.txtRecordStudent6)
-        Me.pnlRecords.Controls.Add(Me.txtRecordStudent5)
-        Me.pnlRecords.Controls.Add(Me.txtRecordStudent4)
-        Me.pnlRecords.Controls.Add(Me.txtRecordStudent3)
-        Me.pnlRecords.Controls.Add(Me.txtRecordStudent2)
-        Me.pnlRecords.Controls.Add(Me.txtRecordStudent1)
-        Me.pnlRecords.Location = New System.Drawing.Point(267, 112)
-        Me.pnlRecords.Name = "pnlRecords"
-        Me.pnlRecords.Size = New System.Drawing.Size(903, 458)
-        Me.pnlRecords.TabIndex = 11
-        '
-        'Panel16
-        '
-        Me.Panel16.BackColor = System.Drawing.Color.DarkSlateGray
-        Me.Panel16.Controls.Add(Me.Label48)
-        Me.Panel16.Controls.Add(Me.Label47)
-        Me.Panel16.Controls.Add(Me.Label46)
-        Me.Panel16.Controls.Add(Me.Label45)
-        Me.Panel16.Controls.Add(Me.Label44)
-        Me.Panel16.Location = New System.Drawing.Point(3, 3)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(897, 63)
-        Me.Panel16.TabIndex = 0
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label44.Location = New System.Drawing.Point(19, 15)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(186, 32)
-        Me.Label44.TabIndex = 2
-        Me.Label44.Text = "Student Name"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label45.Location = New System.Drawing.Point(253, 15)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(109, 32)
-        Me.Label45.TabIndex = 1
-        Me.Label45.Text = "Prelims"
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label46.Location = New System.Drawing.Point(416, 15)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(133, 32)
-        Me.Label46.TabIndex = 1
-        Me.Label46.Text = "Midterms"
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label47.Location = New System.Drawing.Point(606, 15)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(87, 32)
-        Me.Label47.TabIndex = 1
-        Me.Label47.Text = "Finals"
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label48.Location = New System.Drawing.Point(731, 15)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(154, 32)
-        Me.Label48.TabIndex = 1
-        Me.Label48.Text = "Final Grade"
-        '
-        'txtRecordStudent1
-        '
-        Me.txtRecordStudent1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordStudent1.Location = New System.Drawing.Point(25, 85)
-        Me.txtRecordStudent1.Name = "txtRecordStudent1"
-        Me.txtRecordStudent1.Size = New System.Drawing.Size(178, 36)
-        Me.txtRecordStudent1.TabIndex = 0
-        '
-        'txtRecordStudent2
-        '
-        Me.txtRecordStudent2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordStudent2.Location = New System.Drawing.Point(25, 137)
-        Me.txtRecordStudent2.Name = "txtRecordStudent2"
-        Me.txtRecordStudent2.Size = New System.Drawing.Size(178, 36)
-        Me.txtRecordStudent2.TabIndex = 1
-        '
-        'txtRecordStudent3
-        '
-        Me.txtRecordStudent3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordStudent3.Location = New System.Drawing.Point(25, 192)
-        Me.txtRecordStudent3.Name = "txtRecordStudent3"
-        Me.txtRecordStudent3.Size = New System.Drawing.Size(178, 36)
-        Me.txtRecordStudent3.TabIndex = 2
-        '
-        'txtRecordStudent6
-        '
-        Me.txtRecordStudent6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordStudent6.Location = New System.Drawing.Point(25, 363)
-        Me.txtRecordStudent6.Name = "txtRecordStudent6"
-        Me.txtRecordStudent6.Size = New System.Drawing.Size(178, 36)
-        Me.txtRecordStudent6.TabIndex = 5
-        '
-        'txtRecordStudent5
-        '
-        Me.txtRecordStudent5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordStudent5.Location = New System.Drawing.Point(25, 307)
-        Me.txtRecordStudent5.Name = "txtRecordStudent5"
-        Me.txtRecordStudent5.Size = New System.Drawing.Size(178, 36)
-        Me.txtRecordStudent5.TabIndex = 4
-        '
-        'txtRecordStudent4
-        '
-        Me.txtRecordStudent4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordStudent4.Location = New System.Drawing.Point(25, 251)
-        Me.txtRecordStudent4.Name = "txtRecordStudent4"
-        Me.txtRecordStudent4.Size = New System.Drawing.Size(178, 36)
-        Me.txtRecordStudent4.TabIndex = 3
-        '
-        'txtRecordPrelim6
-        '
-        Me.txtRecordPrelim6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordPrelim6.Location = New System.Drawing.Point(259, 363)
-        Me.txtRecordPrelim6.Name = "txtRecordPrelim6"
-        Me.txtRecordPrelim6.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordPrelim6.TabIndex = 11
-        '
-        'txtRecordPrelim5
-        '
-        Me.txtRecordPrelim5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordPrelim5.Location = New System.Drawing.Point(259, 307)
-        Me.txtRecordPrelim5.Name = "txtRecordPrelim5"
-        Me.txtRecordPrelim5.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordPrelim5.TabIndex = 10
-        '
-        'txtRecordPrelim4
-        '
-        Me.txtRecordPrelim4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordPrelim4.Location = New System.Drawing.Point(259, 251)
-        Me.txtRecordPrelim4.Name = "txtRecordPrelim4"
-        Me.txtRecordPrelim4.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordPrelim4.TabIndex = 9
-        '
-        'txtRecordPrelim3
-        '
-        Me.txtRecordPrelim3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordPrelim3.Location = New System.Drawing.Point(259, 192)
-        Me.txtRecordPrelim3.Name = "txtRecordPrelim3"
-        Me.txtRecordPrelim3.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordPrelim3.TabIndex = 8
-        '
-        'txtRecordPrelim2
-        '
-        Me.txtRecordPrelim2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordPrelim2.Location = New System.Drawing.Point(259, 137)
-        Me.txtRecordPrelim2.Name = "txtRecordPrelim2"
-        Me.txtRecordPrelim2.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordPrelim2.TabIndex = 7
-        '
-        'txtRecordPrelim1
-        '
-        Me.txtRecordPrelim1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordPrelim1.Location = New System.Drawing.Point(259, 85)
-        Me.txtRecordPrelim1.Name = "txtRecordPrelim1"
-        Me.txtRecordPrelim1.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordPrelim1.TabIndex = 6
-        '
-        'txtRecordMidterm6
-        '
-        Me.txtRecordMidterm6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordMidterm6.Location = New System.Drawing.Point(428, 362)
-        Me.txtRecordMidterm6.Name = "txtRecordMidterm6"
-        Me.txtRecordMidterm6.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordMidterm6.TabIndex = 17
-        '
-        'txtRecordMidterm5
-        '
-        Me.txtRecordMidterm5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordMidterm5.Location = New System.Drawing.Point(428, 306)
-        Me.txtRecordMidterm5.Name = "txtRecordMidterm5"
-        Me.txtRecordMidterm5.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordMidterm5.TabIndex = 16
-        '
-        'txtRecordMidterm4
-        '
-        Me.txtRecordMidterm4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordMidterm4.Location = New System.Drawing.Point(428, 250)
-        Me.txtRecordMidterm4.Name = "txtRecordMidterm4"
-        Me.txtRecordMidterm4.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordMidterm4.TabIndex = 15
-        '
-        'txtRecordMidterm3
-        '
-        Me.txtRecordMidterm3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordMidterm3.Location = New System.Drawing.Point(428, 191)
-        Me.txtRecordMidterm3.Name = "txtRecordMidterm3"
-        Me.txtRecordMidterm3.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordMidterm3.TabIndex = 14
-        '
-        'txtRecordMidterm2
-        '
-        Me.txtRecordMidterm2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordMidterm2.Location = New System.Drawing.Point(428, 136)
-        Me.txtRecordMidterm2.Name = "txtRecordMidterm2"
-        Me.txtRecordMidterm2.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordMidterm2.TabIndex = 13
-        '
-        'txtRecordMidterm1
-        '
-        Me.txtRecordMidterm1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordMidterm1.Location = New System.Drawing.Point(428, 84)
-        Me.txtRecordMidterm1.Name = "txtRecordMidterm1"
-        Me.txtRecordMidterm1.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordMidterm1.TabIndex = 12
-        '
-        'txtRecordFinals6
-        '
-        Me.txtRecordFinals6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinals6.Location = New System.Drawing.Point(598, 361)
-        Me.txtRecordFinals6.Name = "txtRecordFinals6"
-        Me.txtRecordFinals6.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinals6.TabIndex = 23
-        '
-        'txtRecordFinals5
-        '
-        Me.txtRecordFinals5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinals5.Location = New System.Drawing.Point(598, 305)
-        Me.txtRecordFinals5.Name = "txtRecordFinals5"
-        Me.txtRecordFinals5.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinals5.TabIndex = 22
-        '
-        'txtRecordFinals4
-        '
-        Me.txtRecordFinals4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinals4.Location = New System.Drawing.Point(598, 249)
-        Me.txtRecordFinals4.Name = "txtRecordFinals4"
-        Me.txtRecordFinals4.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinals4.TabIndex = 21
-        '
-        'txtRecordFinals3
-        '
-        Me.txtRecordFinals3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinals3.Location = New System.Drawing.Point(598, 190)
-        Me.txtRecordFinals3.Name = "txtRecordFinals3"
-        Me.txtRecordFinals3.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinals3.TabIndex = 20
-        '
-        'txtRecordFinals2
-        '
-        Me.txtRecordFinals2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinals2.Location = New System.Drawing.Point(598, 135)
-        Me.txtRecordFinals2.Name = "txtRecordFinals2"
-        Me.txtRecordFinals2.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinals2.TabIndex = 19
-        '
-        'txtRecordFinals1
-        '
-        Me.txtRecordFinals1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinals1.Location = New System.Drawing.Point(598, 83)
-        Me.txtRecordFinals1.Name = "txtRecordFinals1"
-        Me.txtRecordFinals1.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinals1.TabIndex = 18
-        '
-        'txtRecordFinalGrade6
-        '
-        Me.txtRecordFinalGrade6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinalGrade6.Location = New System.Drawing.Point(757, 360)
-        Me.txtRecordFinalGrade6.Name = "txtRecordFinalGrade6"
-        Me.txtRecordFinalGrade6.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinalGrade6.TabIndex = 29
-        '
-        'txtRecordFinalGrade5
-        '
-        Me.txtRecordFinalGrade5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinalGrade5.Location = New System.Drawing.Point(757, 304)
-        Me.txtRecordFinalGrade5.Name = "txtRecordFinalGrade5"
-        Me.txtRecordFinalGrade5.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinalGrade5.TabIndex = 28
-        '
-        'txtRecordFinalGrade4
-        '
-        Me.txtRecordFinalGrade4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinalGrade4.Location = New System.Drawing.Point(757, 248)
-        Me.txtRecordFinalGrade4.Name = "txtRecordFinalGrade4"
-        Me.txtRecordFinalGrade4.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinalGrade4.TabIndex = 27
-        '
-        'txtRecordFinalGrade3
-        '
-        Me.txtRecordFinalGrade3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinalGrade3.Location = New System.Drawing.Point(757, 189)
-        Me.txtRecordFinalGrade3.Name = "txtRecordFinalGrade3"
-        Me.txtRecordFinalGrade3.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinalGrade3.TabIndex = 26
-        '
-        'txtRecordFinalGrade2
-        '
-        Me.txtRecordFinalGrade2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinalGrade2.Location = New System.Drawing.Point(757, 134)
-        Me.txtRecordFinalGrade2.Name = "txtRecordFinalGrade2"
-        Me.txtRecordFinalGrade2.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinalGrade2.TabIndex = 25
-        '
-        'txtRecordFinalGrade1
-        '
-        Me.txtRecordFinalGrade1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRecordFinalGrade1.Location = New System.Drawing.Point(757, 82)
-        Me.txtRecordFinalGrade1.Name = "txtRecordFinalGrade1"
-        Me.txtRecordFinalGrade1.Size = New System.Drawing.Size(103, 36)
-        Me.txtRecordFinalGrade1.TabIndex = 24
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(24, 418)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(184, 25)
-        Me.Label49.TabIndex = 30
-        Me.Label49.Text = "Course and Section"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(406, 423)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(142, 25)
-        Me.Label50.TabIndex = 31
-        Me.Label50.Text = "SY 2026-2027"
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(757, 406)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(103, 40)
-        Me.Button1.TabIndex = 32
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = False
+        'lblRecordTitle
+        '
+        Me.lblRecordTitle.AutoSize = True
+        Me.lblRecordTitle.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRecordTitle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lblRecordTitle.Location = New System.Drawing.Point(14, 16)
+        Me.lblRecordTitle.Name = "lblRecordTitle"
+        Me.lblRecordTitle.Size = New System.Drawing.Size(186, 32)
+        Me.lblRecordTitle.TabIndex = 3
+        Me.lblRecordTitle.Text = "Student Name"
         '
         'Form1
         '
@@ -2285,11 +2310,15 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "S"
         Me.Panel1.ResumeLayout(False)
-        Me.Panel14.ResumeLayout(False)
-        Me.Panel14.PerformLayout()
+        Me.pnlInfo.ResumeLayout(False)
+        Me.pnlInfo.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlInput.ResumeLayout(False)
         Me.pnlInput.PerformLayout()
+        Me.pnlRecords.ResumeLayout(False)
+        Me.pnlRecords.PerformLayout()
+        Me.Panel16.ResumeLayout(False)
+        Me.Panel16.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout()
         Me.Panel12.ResumeLayout(False)
@@ -2312,10 +2341,6 @@ Partial Class Form1
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.pnlRecords.ResumeLayout(False)
-        Me.pnlRecords.PerformLayout()
-        Me.Panel16.ResumeLayout(False)
-        Me.Panel16.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2325,7 +2350,7 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btnCompute As Button
-    Friend WithEvents Panel14 As Panel
+    Friend WithEvents pnlInfo As Panel
     Friend WithEvents btnSave As Button
     Friend WithEvents lblFrstSmTxt As Label
     Friend WithEvents Label30 As Label
@@ -2512,6 +2537,8 @@ Partial Class Form1
     Friend WithEvents txtRecordStudent5 As TextBox
     Friend WithEvents txtRecordStudent4 As TextBox
     Friend WithEvents Label50 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents lblYear_Section As Label
+    Friend WithEvents btnBack As Button
+    Friend WithEvents lblSemester As Label
+    Friend WithEvents lblRecordTitle As Label
 End Class

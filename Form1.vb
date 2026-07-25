@@ -118,7 +118,6 @@
             cmbyrSctn.Items.Add("BSCRIM 4B")
 
         End If
-
     End Sub
 
     Private Sub btnCompute_Click(sender As Object, e As EventArgs) Handles btnCompute.Click
@@ -309,62 +308,87 @@
             txtRecordFinals6.Text = txtFinals6.Text
             txtRecordFinalGrade6.Text = txtFinalGrade6.Text
 
+            'Copy Course Title
+            lblRecordTitle.Text = lblCourseTitle.Text
+
+            'Copy Year and Section
+            lblYear_Section.Text = cmbyrSctn.Text
+
+            'Copt Semester
+            If rbFirstsem.Checked Then
+                lblSemester.Text = "First Semester"
+            ElseIf rbSecondSem.Checked Then
+                lblSemester.Text = "Second Semester"
+            End If
+
             MessageBox.Show("Grade successfully saved!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-            'Clear Student Names
-            txtStudentName1.Clear()
-            txtStudentName2.Clear()
-            txtStudentName3.Clear()
-            txtStudentName4.Clear()
-            txtStudentName5.Clear()
-            txtStudentName6.Clear()
+                'Clear Title Course
+                lblCourseTitle.Text = ""
 
-            'Clear Prelims
-            txtPrelim1.Clear()
-            txtPrelim2.Clear()
-            txtPrelim3.Clear()
-            txtPrelim4.Clear()
-            txtPrelim5.Clear()
-            txtPrelim6.Clear()
+                'Clear Student Names
+                txtStudentName1.Clear()
+                txtStudentName2.Clear()
+                txtStudentName3.Clear()
+                txtStudentName4.Clear()
+                txtStudentName5.Clear()
+                txtStudentName6.Clear()
 
-            'Clear Midterms
-            txtMidterm1.Clear()
-            txtMidterm2.Clear()
-            txtMidterm3.Clear()
-            txtMidterm4.Clear()
-            txtMidterm5.Clear()
-            txtMidterm6.Clear()
+                'Clear Prelims
+                txtPrelim1.Clear()
+                txtPrelim2.Clear()
+                txtPrelim3.Clear()
+                txtPrelim4.Clear()
+                txtPrelim5.Clear()
+                txtPrelim6.Clear()
 
-            'Clear Finals
-            txtFinals1.Clear()
-            txtFinals2.Clear()
-            txtFinals3.Clear()
-            txtFinals4.Clear()
-            txtFinals5.Clear()
-            txtFinals6.Clear()
+                'Clear Midterms
+                txtMidterm1.Clear()
+                txtMidterm2.Clear()
+                txtMidterm3.Clear()
+                txtMidterm4.Clear()
+                txtMidterm5.Clear()
+                txtMidterm6.Clear()
 
-            'Clear Final Grades
-            txtFinalGrade1.Clear()
-            txtFinalGrade2.Clear()
-            txtFinalGrade3.Clear()
-            txtFinalGrade4.Clear()
-            txtFinalGrade5.Clear()
+                'Clear Finals
+                txtFinals1.Clear()
+                txtFinals2.Clear()
+                txtFinals3.Clear()
+                txtFinals4.Clear()
+                txtFinals5.Clear()
+                txtFinals6.Clear()
+
+                'Clear Final Grades
+                txtFinalGrade1.Clear()
+                txtFinalGrade2.Clear()
+                txtFinalGrade3.Clear()
+                txtFinalGrade4.Clear()
+                txtFinalGrade5.Clear()
             txtFinalGrade6.Clear()
+
+            'Clear Final Text
+            lblStatus1.Text = ""
+            lblStatus2.Text = ""
+            lblStatus3.Text = ""
+            lblStatus4.Text = ""
+            lblStatus5.Text = ""
+            lblStatus6.Text = ""
 
             'Selection
             cmbCourse.SelectedIndex = -1
-            cmbyrSctn.SelectedIndex = -1
-            rbFirstsem.Checked = False
+                cmbyrSctn.SelectedIndex = -1
+                rbFirstsem.Checked = False
             rbSecondSem.Checked = False
-
         End If
     End Sub
 
     Private Sub cmbRecords_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbRecords.SelectedIndexChanged
         pnlRecords.Visible = True
+        pnlInfo.Enabled = False
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         pnlRecords.Visible = False
+        pnlInfo.Enabled = True
     End Sub
 End Class
