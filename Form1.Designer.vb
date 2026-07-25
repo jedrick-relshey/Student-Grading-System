@@ -176,7 +176,46 @@ Partial Class Form1
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.TextBox25 = New System.Windows.Forms.TextBox()
+        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.TextBox27 = New System.Windows.Forms.TextBox()
+        Me.TextBox28 = New System.Windows.Forms.TextBox()
+        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel14.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -192,6 +231,8 @@ Partial Class Form1
         Me.Panel8.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel15.SuspendLayout()
+        Me.Panel16.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -418,7 +459,7 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.LightYellow
-        Me.Panel4.Controls.Add(Me.TableLayoutPanel1)
+        Me.Panel4.Controls.Add(Me.Panel15)
         Me.Panel4.Controls.Add(Me.lblCourseTitle)
         Me.Panel4.Controls.Add(Me.Panel13)
         Me.Panel4.Controls.Add(Me.Panel12)
@@ -1853,29 +1894,387 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Dominican College of Tarlac."
         '
-        'TableLayoutPanel1
+        'Panel15
         '
-        Me.TableLayoutPanel1.BackColor = System.Drawing.SystemColors.MenuBar
-        Me.TableLayoutPanel1.ColumnCount = 6
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.21526!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.78474!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 142.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131.0!))
-        Me.TableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(247, 51)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 7
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56.70103!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.29897!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 51.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(903, 407)
-        Me.TableLayoutPanel1.TabIndex = 11
+        Me.Panel15.BackColor = System.Drawing.Color.Linen
+        Me.Panel15.Controls.Add(Me.Button1)
+        Me.Panel15.Controls.Add(Me.Label50)
+        Me.Panel15.Controls.Add(Me.Label49)
+        Me.Panel15.Controls.Add(Me.Panel16)
+        Me.Panel15.Controls.Add(Me.TextBox25)
+        Me.Panel15.Controls.Add(Me.TextBox26)
+        Me.Panel15.Controls.Add(Me.TextBox27)
+        Me.Panel15.Controls.Add(Me.TextBox28)
+        Me.Panel15.Controls.Add(Me.TextBox29)
+        Me.Panel15.Controls.Add(Me.TextBox30)
+        Me.Panel15.Controls.Add(Me.TextBox19)
+        Me.Panel15.Controls.Add(Me.TextBox20)
+        Me.Panel15.Controls.Add(Me.TextBox21)
+        Me.Panel15.Controls.Add(Me.TextBox22)
+        Me.Panel15.Controls.Add(Me.TextBox23)
+        Me.Panel15.Controls.Add(Me.TextBox24)
+        Me.Panel15.Controls.Add(Me.TextBox13)
+        Me.Panel15.Controls.Add(Me.TextBox14)
+        Me.Panel15.Controls.Add(Me.TextBox15)
+        Me.Panel15.Controls.Add(Me.TextBox16)
+        Me.Panel15.Controls.Add(Me.TextBox17)
+        Me.Panel15.Controls.Add(Me.TextBox18)
+        Me.Panel15.Controls.Add(Me.TextBox7)
+        Me.Panel15.Controls.Add(Me.TextBox8)
+        Me.Panel15.Controls.Add(Me.TextBox9)
+        Me.Panel15.Controls.Add(Me.TextBox10)
+        Me.Panel15.Controls.Add(Me.TextBox11)
+        Me.Panel15.Controls.Add(Me.TextBox12)
+        Me.Panel15.Controls.Add(Me.TextBox3)
+        Me.Panel15.Controls.Add(Me.TextBox5)
+        Me.Panel15.Controls.Add(Me.TextBox6)
+        Me.Panel15.Controls.Add(Me.TextBox4)
+        Me.Panel15.Controls.Add(Me.TextBox2)
+        Me.Panel15.Controls.Add(Me.TextBox1)
+        Me.Panel15.Location = New System.Drawing.Point(247, 0)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(903, 458)
+        Me.Panel15.TabIndex = 11
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.Panel16.Controls.Add(Me.Label48)
+        Me.Panel16.Controls.Add(Me.Label47)
+        Me.Panel16.Controls.Add(Me.Label46)
+        Me.Panel16.Controls.Add(Me.Label45)
+        Me.Panel16.Controls.Add(Me.Label44)
+        Me.Panel16.Location = New System.Drawing.Point(3, 4)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(897, 63)
+        Me.Panel16.TabIndex = 0
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label44.Location = New System.Drawing.Point(19, 15)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(186, 32)
+        Me.Label44.TabIndex = 2
+        Me.Label44.Text = "Student Name"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label45.Location = New System.Drawing.Point(253, 15)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(109, 32)
+        Me.Label45.TabIndex = 1
+        Me.Label45.Text = "Prelims"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label46.Location = New System.Drawing.Point(416, 15)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(133, 32)
+        Me.Label46.TabIndex = 1
+        Me.Label46.Text = "Midterms"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label47.Location = New System.Drawing.Point(606, 15)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(87, 32)
+        Me.Label47.TabIndex = 1
+        Me.Label47.Text = "Finals"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label48.Location = New System.Drawing.Point(731, 15)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(154, 32)
+        Me.Label48.TabIndex = 1
+        Me.Label48.Text = "Final Grade"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(25, 85)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(178, 36)
+        Me.TextBox1.TabIndex = 0
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(25, 137)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(178, 36)
+        Me.TextBox2.TabIndex = 1
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(25, 192)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(178, 36)
+        Me.TextBox4.TabIndex = 2
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(25, 363)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(178, 36)
+        Me.TextBox3.TabIndex = 5
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(25, 307)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(178, 36)
+        Me.TextBox5.TabIndex = 4
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Location = New System.Drawing.Point(25, 251)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(178, 36)
+        Me.TextBox6.TabIndex = 3
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.Location = New System.Drawing.Point(259, 363)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox7.TabIndex = 11
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.Location = New System.Drawing.Point(259, 307)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox8.TabIndex = 10
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox9.Location = New System.Drawing.Point(259, 251)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox9.TabIndex = 9
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.Location = New System.Drawing.Point(259, 192)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox10.TabIndex = 8
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox11.Location = New System.Drawing.Point(259, 137)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox11.TabIndex = 7
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox12.Location = New System.Drawing.Point(259, 85)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox12.TabIndex = 6
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox13.Location = New System.Drawing.Point(428, 362)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox13.TabIndex = 17
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox14.Location = New System.Drawing.Point(428, 306)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox14.TabIndex = 16
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox15.Location = New System.Drawing.Point(428, 250)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox15.TabIndex = 15
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox16.Location = New System.Drawing.Point(428, 191)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox16.TabIndex = 14
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox17.Location = New System.Drawing.Point(428, 136)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox17.TabIndex = 13
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox18.Location = New System.Drawing.Point(428, 84)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox18.TabIndex = 12
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox19.Location = New System.Drawing.Point(598, 361)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox19.TabIndex = 23
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox20.Location = New System.Drawing.Point(598, 305)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox20.TabIndex = 22
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox21.Location = New System.Drawing.Point(598, 249)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox21.TabIndex = 21
+        '
+        'TextBox22
+        '
+        Me.TextBox22.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox22.Location = New System.Drawing.Point(598, 190)
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox22.TabIndex = 20
+        '
+        'TextBox23
+        '
+        Me.TextBox23.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox23.Location = New System.Drawing.Point(598, 135)
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox23.TabIndex = 19
+        '
+        'TextBox24
+        '
+        Me.TextBox24.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox24.Location = New System.Drawing.Point(598, 83)
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox24.TabIndex = 18
+        '
+        'TextBox25
+        '
+        Me.TextBox25.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox25.Location = New System.Drawing.Point(757, 360)
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox25.TabIndex = 29
+        '
+        'TextBox26
+        '
+        Me.TextBox26.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox26.Location = New System.Drawing.Point(757, 304)
+        Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox26.TabIndex = 28
+        '
+        'TextBox27
+        '
+        Me.TextBox27.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox27.Location = New System.Drawing.Point(757, 248)
+        Me.TextBox27.Name = "TextBox27"
+        Me.TextBox27.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox27.TabIndex = 27
+        '
+        'TextBox28
+        '
+        Me.TextBox28.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox28.Location = New System.Drawing.Point(757, 189)
+        Me.TextBox28.Name = "TextBox28"
+        Me.TextBox28.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox28.TabIndex = 26
+        '
+        'TextBox29
+        '
+        Me.TextBox29.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox29.Location = New System.Drawing.Point(757, 134)
+        Me.TextBox29.Name = "TextBox29"
+        Me.TextBox29.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox29.TabIndex = 25
+        '
+        'TextBox30
+        '
+        Me.TextBox30.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox30.Location = New System.Drawing.Point(757, 82)
+        Me.TextBox30.Name = "TextBox30"
+        Me.TextBox30.Size = New System.Drawing.Size(103, 36)
+        Me.TextBox30.TabIndex = 24
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(24, 418)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(184, 25)
+        Me.Label49.TabIndex = 30
+        Me.Label49.Text = "Course and Section"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Cambria", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(254, 418)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(142, 25)
+        Me.Label50.TabIndex = 31
+        Me.Label50.Text = "SY 2026-2027"
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(757, 406)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(103, 40)
+        Me.Button1.TabIndex = 32
+        Me.Button1.Text = "Back"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Form1
         '
@@ -1913,6 +2312,10 @@ Partial Class Form1
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel15.ResumeLayout(False)
+        Me.Panel15.PerformLayout()
+        Me.Panel16.ResumeLayout(False)
+        Me.Panel16.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2071,5 +2474,44 @@ Partial Class Form1
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label29 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents Panel15 As Panel
+    Friend WithEvents Panel16 As Panel
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents TextBox26 As TextBox
+    Friend WithEvents TextBox27 As TextBox
+    Friend WithEvents TextBox28 As TextBox
+    Friend WithEvents TextBox29 As TextBox
+    Friend WithEvents TextBox30 As TextBox
+    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents TextBox22 As TextBox
+    Friend WithEvents TextBox23 As TextBox
+    Friend WithEvents TextBox24 As TextBox
+    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents TextBox17 As TextBox
+    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label50 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Button1 As Button
 End Class
